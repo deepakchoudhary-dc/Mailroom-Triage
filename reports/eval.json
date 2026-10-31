@@ -1,0 +1,6503 @@
+{
+  "model_dir": "artifacts/model",
+  "temperatures": {
+    "about_airline": 0.1517,
+    "about_banking": 0.1277,
+    "about_education": 0.1859,
+    "about_electricity": 0.1272,
+    "about_telecom": 0.1627,
+    "category#6": 0.081,
+    "category#7": 1.0,
+    "from_billing_entity": 0.1537,
+    "has_billing_identifiers": 0.206,
+    "is_promotional": 0.1967,
+    "kind": 0.1776,
+    "states_amount_owed": 0.2001
+  },
+  "thresholds": {
+    "about_airline": {
+      "threshold": 0.5,
+      "coverage": 1.0,
+      "precision": 1.0,
+      "met_target": true,
+      "critical": false,
+      "rows": 378
+    },
+    "about_banking": {
+      "threshold": 0.5,
+      "coverage": 1.0,
+      "precision": 1.0,
+      "met_target": true,
+      "critical": false,
+      "rows": 378
+    },
+    "about_education": {
+      "threshold": 0.5,
+      "coverage": 1.0,
+      "precision": 1.0,
+      "met_target": true,
+      "critical": false,
+      "rows": 378
+    },
+    "about_electricity": {
+      "threshold": 0.5,
+      "coverage": 1.0,
+      "precision": 1.0,
+      "met_target": true,
+      "critical": false,
+      "rows": 378
+    },
+    "about_telecom": {
+      "threshold": 0.5,
+      "coverage": 1.0,
+      "precision": 1.0,
+      "met_target": true,
+      "critical": false,
+      "rows": 378
+    },
+    "category#6": {
+      "threshold": 0.5,
+      "coverage": 1.0,
+      "precision": 1.0,
+      "met_target": true,
+      "critical": false,
+      "rows": 224
+    },
+    "category#7": {
+      "threshold": 0.5,
+      "coverage": 1.0,
+      "precision": 1.0,
+      "met_target": true,
+      "critical": false,
+      "rows": 14
+    },
+    "from_billing_entity": {
+      "threshold": 0.5,
+      "coverage": 1.0,
+      "precision": 1.0,
+      "met_target": true,
+      "critical": true,
+      "rows": 378
+    },
+    "has_billing_identifiers": {
+      "threshold": 0.5,
+      "coverage": 1.0,
+      "precision": 1.0,
+      "met_target": true,
+      "critical": false,
+      "rows": 378
+    },
+    "is_promotional": {
+      "threshold": 0.5,
+      "coverage": 1.0,
+      "precision": 1.0,
+      "met_target": true,
+      "critical": false,
+      "rows": 378
+    },
+    "kind": {
+      "threshold": 0.5,
+      "coverage": 1.0,
+      "precision": 1.0,
+      "met_target": true,
+      "critical": true,
+      "rows": 378
+    },
+    "states_amount_owed": {
+      "threshold": 0.5,
+      "coverage": 1.0,
+      "precision": 1.0,
+      "met_target": true,
+      "critical": true,
+      "rows": 378
+    }
+  },
+  "splits": {
+    "calibration": {
+      "about_airline": {
+        "rows": 378,
+        "nll": 0.0,
+        "brier": 0.0,
+        "ece": 0.0,
+        "accuracy": 1.0,
+        "coverage": 1.0,
+        "precision_at_threshold": 1.0,
+        "auroc": 1.0
+      },
+      "about_banking": {
+        "rows": 378,
+        "nll": 0.0,
+        "brier": 0.0,
+        "ece": 0.0,
+        "accuracy": 1.0,
+        "coverage": 1.0,
+        "precision_at_threshold": 1.0,
+        "auroc": 1.0
+      },
+      "about_education": {
+        "rows": 378,
+        "nll": 0.0,
+        "brier": 0.0,
+        "ece": 0.0,
+        "accuracy": 1.0,
+        "coverage": 1.0,
+        "precision_at_threshold": 1.0,
+        "auroc": 1.0
+      },
+      "about_electricity": {
+        "rows": 378,
+        "nll": 0.0,
+        "brier": 0.0,
+        "ece": 0.0,
+        "accuracy": 1.0,
+        "coverage": 1.0,
+        "precision_at_threshold": 1.0,
+        "auroc": 1.0
+      },
+      "about_telecom": {
+        "rows": 378,
+        "nll": 0.0,
+        "brier": 0.0,
+        "ece": 0.0,
+        "accuracy": 1.0,
+        "coverage": 1.0,
+        "precision_at_threshold": 1.0,
+        "auroc": 1.0
+      },
+      "category#6": {
+        "rows": 224,
+        "nll": 0.0,
+        "brier": 0.0,
+        "ece": 0.0,
+        "accuracy": 1.0,
+        "coverage": 1.0,
+        "precision_at_threshold": 1.0,
+        "macro_f1": 1.0
+      },
+      "category#7": {
+        "rows": 14,
+        "nll": 0.00011,
+        "brier": 0.0,
+        "ece": 0.00011,
+        "accuracy": 1.0,
+        "coverage": 1.0,
+        "precision_at_threshold": 1.0,
+        "macro_f1": 1.0
+      },
+      "from_billing_entity": {
+        "rows": 378,
+        "nll": 0.0,
+        "brier": 0.0,
+        "ece": 0.0,
+        "accuracy": 1.0,
+        "coverage": 1.0,
+        "precision_at_threshold": 1.0,
+        "auroc": 1.0
+      },
+      "has_billing_identifiers": {
+        "rows": 378,
+        "nll": 0.0,
+        "brier": 0.0,
+        "ece": 0.0,
+        "accuracy": 1.0,
+        "coverage": 1.0,
+        "precision_at_threshold": 1.0,
+        "auroc": 1.0
+      },
+      "is_promotional": {
+        "rows": 378,
+        "nll": 0.0,
+        "brier": 0.0,
+        "ece": 0.0,
+        "accuracy": 1.0,
+        "coverage": 1.0,
+        "precision_at_threshold": 1.0,
+        "auroc": 1.0
+      },
+      "kind": {
+        "rows": 378,
+        "nll": 0.0,
+        "brier": 0.0,
+        "ece": 0.0,
+        "accuracy": 1.0,
+        "coverage": 1.0,
+        "precision_at_threshold": 1.0,
+        "macro_f1": 1.0
+      },
+      "states_amount_owed": {
+        "rows": 378,
+        "nll": 0.0,
+        "brier": 0.0,
+        "ece": 0.0,
+        "accuracy": 1.0,
+        "coverage": 1.0,
+        "precision_at_threshold": 1.0,
+        "auroc": 1.0
+      }
+    },
+    "validation": {
+      "about_airline": {
+        "rows": 567,
+        "nll": 0.0,
+        "brier": 0.0,
+        "ece": 0.0,
+        "accuracy": 1.0,
+        "coverage": 1.0,
+        "precision_at_threshold": 1.0,
+        "auroc": 1.0
+      },
+      "about_banking": {
+        "rows": 567,
+        "nll": 0.0,
+        "brier": 0.0,
+        "ece": 0.0,
+        "accuracy": 1.0,
+        "coverage": 1.0,
+        "precision_at_threshold": 1.0,
+        "auroc": 1.0
+      },
+      "about_education": {
+        "rows": 567,
+        "nll": 0.0,
+        "brier": 0.0,
+        "ece": 0.0,
+        "accuracy": 1.0,
+        "coverage": 1.0,
+        "precision_at_threshold": 1.0,
+        "auroc": 1.0
+      },
+      "about_electricity": {
+        "rows": 567,
+        "nll": 0.0,
+        "brier": 0.0,
+        "ece": 0.0,
+        "accuracy": 1.0,
+        "coverage": 1.0,
+        "precision_at_threshold": 1.0,
+        "auroc": 1.0
+      },
+      "about_telecom": {
+        "rows": 567,
+        "nll": 0.0,
+        "brier": 0.0,
+        "ece": 0.0,
+        "accuracy": 1.0,
+        "coverage": 1.0,
+        "precision_at_threshold": 1.0,
+        "auroc": 1.0
+      },
+      "category#6": {
+        "rows": 336,
+        "nll": 0.0,
+        "brier": 0.0,
+        "ece": 0.0,
+        "accuracy": 1.0,
+        "coverage": 1.0,
+        "precision_at_threshold": 1.0,
+        "macro_f1": 1.0
+      },
+      "category#7": {
+        "rows": 21,
+        "nll": 0.00014,
+        "brier": 0.0,
+        "ece": 0.00014,
+        "accuracy": 1.0,
+        "coverage": 1.0,
+        "precision_at_threshold": 1.0,
+        "macro_f1": 1.0
+      },
+      "from_billing_entity": {
+        "rows": 567,
+        "nll": 0.0,
+        "brier": 0.0,
+        "ece": 0.0,
+        "accuracy": 1.0,
+        "coverage": 1.0,
+        "precision_at_threshold": 1.0,
+        "auroc": 1.0
+      },
+      "has_billing_identifiers": {
+        "rows": 567,
+        "nll": 0.0,
+        "brier": 0.0,
+        "ece": 0.0,
+        "accuracy": 1.0,
+        "coverage": 1.0,
+        "precision_at_threshold": 1.0,
+        "auroc": 1.0
+      },
+      "is_promotional": {
+        "rows": 567,
+        "nll": 0.0,
+        "brier": 0.0,
+        "ece": 0.0,
+        "accuracy": 1.0,
+        "coverage": 1.0,
+        "precision_at_threshold": 1.0,
+        "auroc": 1.0
+      },
+      "kind": {
+        "rows": 567,
+        "nll": 0.0,
+        "brier": 0.0,
+        "ece": 0.0,
+        "accuracy": 1.0,
+        "coverage": 1.0,
+        "precision_at_threshold": 1.0,
+        "macro_f1": 1.0
+      },
+      "states_amount_owed": {
+        "rows": 567,
+        "nll": 0.0,
+        "brier": 0.0,
+        "ece": 0.0,
+        "accuracy": 1.0,
+        "coverage": 1.0,
+        "precision_at_threshold": 1.0,
+        "auroc": 1.0
+      }
+    },
+    "test": {
+      "about_airline": {
+        "rows": 783,
+        "nll": 0.0,
+        "brier": 0.0,
+        "ece": 0.0,
+        "accuracy": 1.0,
+        "coverage": 1.0,
+        "precision_at_threshold": 1.0,
+        "auroc": 1.0
+      },
+      "about_banking": {
+        "rows": 783,
+        "nll": 0.0,
+        "brier": 0.0,
+        "ece": 0.0,
+        "accuracy": 1.0,
+        "coverage": 1.0,
+        "precision_at_threshold": 1.0,
+        "auroc": 1.0
+      },
+      "about_education": {
+        "rows": 783,
+        "nll": 0.0,
+        "brier": 0.0,
+        "ece": 0.0,
+        "accuracy": 1.0,
+        "coverage": 1.0,
+        "precision_at_threshold": 1.0,
+        "auroc": 1.0
+      },
+      "about_electricity": {
+        "rows": 783,
+        "nll": 0.0,
+        "brier": 0.0,
+        "ece": 0.0,
+        "accuracy": 1.0,
+        "coverage": 1.0,
+        "precision_at_threshold": 1.0,
+        "auroc": 1.0
+      },
+      "about_telecom": {
+        "rows": 783,
+        "nll": 0.0,
+        "brier": 0.0,
+        "ece": 0.0,
+        "accuracy": 1.0,
+        "coverage": 1.0,
+        "precision_at_threshold": 1.0,
+        "auroc": 1.0
+      },
+      "category#6": {
+        "rows": 464,
+        "nll": 0.0,
+        "brier": 0.0,
+        "ece": 0.0,
+        "accuracy": 1.0,
+        "coverage": 1.0,
+        "precision_at_threshold": 1.0,
+        "macro_f1": 1.0
+      },
+      "category#7": {
+        "rows": 29,
+        "nll": 9e-05,
+        "brier": 0.0,
+        "ece": 9e-05,
+        "accuracy": 1.0,
+        "coverage": 1.0,
+        "precision_at_threshold": 1.0,
+        "macro_f1": 1.0
+      },
+      "from_billing_entity": {
+        "rows": 783,
+        "nll": 0.0,
+        "brier": 0.0,
+        "ece": 0.0,
+        "accuracy": 1.0,
+        "coverage": 1.0,
+        "precision_at_threshold": 1.0,
+        "auroc": 1.0
+      },
+      "has_billing_identifiers": {
+        "rows": 783,
+        "nll": 0.0,
+        "brier": 0.0,
+        "ece": 0.0,
+        "accuracy": 1.0,
+        "coverage": 1.0,
+        "precision_at_threshold": 1.0,
+        "auroc": 1.0
+      },
+      "is_promotional": {
+        "rows": 783,
+        "nll": 0.0,
+        "brier": 0.0,
+        "ece": 0.0,
+        "accuracy": 1.0,
+        "coverage": 1.0,
+        "precision_at_threshold": 1.0,
+        "auroc": 1.0
+      },
+      "kind": {
+        "rows": 783,
+        "nll": 0.0,
+        "brier": 0.0,
+        "ece": 0.0,
+        "accuracy": 1.0,
+        "coverage": 1.0,
+        "precision_at_threshold": 1.0,
+        "macro_f1": 1.0
+      },
+      "states_amount_owed": {
+        "rows": 783,
+        "nll": 0.0,
+        "brier": 0.0,
+        "ece": 0.0,
+        "accuracy": 1.0,
+        "coverage": 1.0,
+        "precision_at_threshold": 1.0,
+        "auroc": 1.0
+      }
+    },
+    "ood": {
+      "about_airline": {
+        "rows": 2160,
+        "nll": 0.0,
+        "brier": 0.0,
+        "ece": 0.0,
+        "accuracy": 1.0,
+        "coverage": 1.0,
+        "precision_at_threshold": 1.0
+      },
+      "about_banking": {
+        "rows": 2160,
+        "nll": 0.0,
+        "brier": 0.0,
+        "ece": 0.0,
+        "accuracy": 1.0,
+        "coverage": 1.0,
+        "precision_at_threshold": 1.0,
+        "auroc": 1.0
+      },
+      "about_education": {
+        "rows": 2160,
+        "nll": 0.0,
+        "brier": 0.0,
+        "ece": 0.0,
+        "accuracy": 1.0,
+        "coverage": 1.0,
+        "precision_at_threshold": 1.0
+      },
+      "about_electricity": {
+        "rows": 2160,
+        "nll": 0.00283,
+        "brier": 0.00165,
+        "ece": 0.00101,
+        "accuracy": 0.99907,
+        "coverage": 1.0,
+        "precision_at_threshold": 0.99907
+      },
+      "about_telecom": {
+        "rows": 2160,
+        "nll": 0.0,
+        "brier": 0.0,
+        "ece": 0.0,
+        "accuracy": 1.0,
+        "coverage": 1.0,
+        "precision_at_threshold": 1.0,
+        "auroc": 1.0
+      },
+      "category#6": {
+        "rows": 1280,
+        "nll": 0.03855,
+        "brier": 0.01156,
+        "ece": 0.00618,
+        "accuracy": 0.99297,
+        "coverage": 1.0,
+        "precision_at_threshold": 0.99297,
+        "macro_f1": 0.59913
+      },
+      "category#7": {
+        "rows": 80,
+        "nll": 0.09777,
+        "brier": 0.03319,
+        "ece": 0.08787,
+        "accuracy": 1.0,
+        "coverage": 1.0,
+        "precision_at_threshold": 1.0
+      },
+      "from_billing_entity": {
+        "rows": 2160,
+        "nll": 0.0,
+        "brier": 0.0,
+        "ece": 0.0,
+        "accuracy": 1.0,
+        "coverage": 1.0,
+        "precision_at_threshold": 1.0,
+        "auroc": 1.0
+      },
+      "has_billing_identifiers": {
+        "rows": 2160,
+        "nll": 0.0,
+        "brier": 0.0,
+        "ece": 0.0,
+        "accuracy": 1.0,
+        "coverage": 1.0,
+        "precision_at_threshold": 1.0,
+        "auroc": 1.0
+      },
+      "is_promotional": {
+        "rows": 2160,
+        "nll": 0.0,
+        "brier": 0.0,
+        "ece": 0.0,
+        "accuracy": 1.0,
+        "coverage": 1.0,
+        "precision_at_threshold": 1.0,
+        "auroc": 1.0
+      },
+      "kind": {
+        "rows": 2160,
+        "nll": 0.18024,
+        "brier": 0.03471,
+        "ece": 0.01771,
+        "accuracy": 0.98194,
+        "coverage": 1.0,
+        "precision_at_threshold": 0.98194,
+        "macro_f1": 0.98194
+      },
+      "states_amount_owed": {
+        "rows": 2160,
+        "nll": 0.00128,
+        "brier": 0.00081,
+        "ece": 0.00043,
+        "accuracy": 0.99954,
+        "coverage": 1.0,
+        "precision_at_threshold": 0.99954,
+        "auroc": 1.0
+      }
+    }
+  },
+  "language": {
+    "calibration": {
+      "en": {
+        "about_airline": {
+          "rows": 126,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "about_banking": {
+          "rows": 126,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "about_education": {
+          "rows": 126,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "about_electricity": {
+          "rows": 126,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "about_telecom": {
+          "rows": 126,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "category#6": {
+          "rows": 84,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "macro_f1": 1.0
+        },
+        "category#7": {
+          "rows": 14,
+          "nll": 0.00011,
+          "brier": 0.0,
+          "ece": 0.00011,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "macro_f1": 1.0
+        },
+        "from_billing_entity": {
+          "rows": 126,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "has_billing_identifiers": {
+          "rows": 126,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "is_promotional": {
+          "rows": 126,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "kind": {
+          "rows": 126,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "macro_f1": 1.0
+        },
+        "states_amount_owed": {
+          "rows": 126,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        }
+      },
+      "tr": {
+        "about_airline": {
+          "rows": 126,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "about_banking": {
+          "rows": 126,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "about_education": {
+          "rows": 126,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "about_electricity": {
+          "rows": 126,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "about_telecom": {
+          "rows": 126,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "category#6": {
+          "rows": 70,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "macro_f1": 1.0
+        },
+        "from_billing_entity": {
+          "rows": 126,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "has_billing_identifiers": {
+          "rows": 126,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "is_promotional": {
+          "rows": 126,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "kind": {
+          "rows": 126,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "macro_f1": 1.0
+        },
+        "states_amount_owed": {
+          "rows": 126,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        }
+      },
+      "zh": {
+        "about_airline": {
+          "rows": 126,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "about_banking": {
+          "rows": 126,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "about_education": {
+          "rows": 126,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "about_electricity": {
+          "rows": 126,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "about_telecom": {
+          "rows": 126,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "category#6": {
+          "rows": 70,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "macro_f1": 1.0
+        },
+        "from_billing_entity": {
+          "rows": 126,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "has_billing_identifiers": {
+          "rows": 126,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "is_promotional": {
+          "rows": 126,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "kind": {
+          "rows": 126,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "macro_f1": 1.0
+        },
+        "states_amount_owed": {
+          "rows": 126,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        }
+      }
+    },
+    "validation": {
+      "en": {
+        "about_airline": {
+          "rows": 189,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "about_banking": {
+          "rows": 189,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "about_education": {
+          "rows": 189,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "about_electricity": {
+          "rows": 189,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "about_telecom": {
+          "rows": 189,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "category#6": {
+          "rows": 126,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "macro_f1": 1.0
+        },
+        "category#7": {
+          "rows": 21,
+          "nll": 0.00014,
+          "brier": 0.0,
+          "ece": 0.00014,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "macro_f1": 1.0
+        },
+        "from_billing_entity": {
+          "rows": 189,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "has_billing_identifiers": {
+          "rows": 189,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "is_promotional": {
+          "rows": 189,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "kind": {
+          "rows": 189,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "macro_f1": 1.0
+        },
+        "states_amount_owed": {
+          "rows": 189,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        }
+      },
+      "tr": {
+        "about_airline": {
+          "rows": 189,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "about_banking": {
+          "rows": 189,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "about_education": {
+          "rows": 189,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "about_electricity": {
+          "rows": 189,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "about_telecom": {
+          "rows": 189,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "category#6": {
+          "rows": 105,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "macro_f1": 1.0
+        },
+        "from_billing_entity": {
+          "rows": 189,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "has_billing_identifiers": {
+          "rows": 189,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "is_promotional": {
+          "rows": 189,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "kind": {
+          "rows": 189,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "macro_f1": 1.0
+        },
+        "states_amount_owed": {
+          "rows": 189,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        }
+      },
+      "zh": {
+        "about_airline": {
+          "rows": 189,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "about_banking": {
+          "rows": 189,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "about_education": {
+          "rows": 189,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "about_electricity": {
+          "rows": 189,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "about_telecom": {
+          "rows": 189,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "category#6": {
+          "rows": 105,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "macro_f1": 1.0
+        },
+        "from_billing_entity": {
+          "rows": 189,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "has_billing_identifiers": {
+          "rows": 189,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "is_promotional": {
+          "rows": 189,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "kind": {
+          "rows": 189,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "macro_f1": 1.0
+        },
+        "states_amount_owed": {
+          "rows": 189,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        }
+      }
+    },
+    "test": {
+      "en": {
+        "about_airline": {
+          "rows": 261,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "about_banking": {
+          "rows": 261,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "about_education": {
+          "rows": 261,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "about_electricity": {
+          "rows": 261,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "about_telecom": {
+          "rows": 261,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "category#6": {
+          "rows": 174,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "macro_f1": 1.0
+        },
+        "category#7": {
+          "rows": 29,
+          "nll": 9e-05,
+          "brier": 0.0,
+          "ece": 9e-05,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "macro_f1": 1.0
+        },
+        "from_billing_entity": {
+          "rows": 261,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "has_billing_identifiers": {
+          "rows": 261,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "is_promotional": {
+          "rows": 261,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "kind": {
+          "rows": 261,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "macro_f1": 1.0
+        },
+        "states_amount_owed": {
+          "rows": 261,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        }
+      },
+      "tr": {
+        "about_airline": {
+          "rows": 261,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "about_banking": {
+          "rows": 261,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "about_education": {
+          "rows": 261,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "about_electricity": {
+          "rows": 261,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "about_telecom": {
+          "rows": 261,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "category#6": {
+          "rows": 145,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "macro_f1": 1.0
+        },
+        "from_billing_entity": {
+          "rows": 261,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "has_billing_identifiers": {
+          "rows": 261,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "is_promotional": {
+          "rows": 261,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "kind": {
+          "rows": 261,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "macro_f1": 1.0
+        },
+        "states_amount_owed": {
+          "rows": 261,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        }
+      },
+      "zh": {
+        "about_airline": {
+          "rows": 261,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "about_banking": {
+          "rows": 261,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "about_education": {
+          "rows": 261,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "about_electricity": {
+          "rows": 261,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "about_telecom": {
+          "rows": 261,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "category#6": {
+          "rows": 145,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "macro_f1": 1.0
+        },
+        "from_billing_entity": {
+          "rows": 261,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "has_billing_identifiers": {
+          "rows": 261,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "is_promotional": {
+          "rows": 261,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "kind": {
+          "rows": 261,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "macro_f1": 1.0
+        },
+        "states_amount_owed": {
+          "rows": 261,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        }
+      }
+    },
+    "ood": {
+      "en": {
+        "about_airline": {
+          "rows": 720,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "about_banking": {
+          "rows": 720,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "about_education": {
+          "rows": 720,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "about_electricity": {
+          "rows": 720,
+          "nll": 0.00307,
+          "brier": 0.00202,
+          "ece": 0.00181,
+          "accuracy": 0.99861,
+          "coverage": 1.0,
+          "precision_at_threshold": 0.99861
+        },
+        "about_telecom": {
+          "rows": 720,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "category#6": {
+          "rows": 480,
+          "nll": 0.0048,
+          "brier": 0.00222,
+          "ece": 0.004,
+          "accuracy": 0.99792,
+          "coverage": 1.0,
+          "precision_at_threshold": 0.99792,
+          "macro_f1": 0.74969
+        },
+        "category#7": {
+          "rows": 80,
+          "nll": 0.09777,
+          "brier": 0.03319,
+          "ece": 0.08787,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "from_billing_entity": {
+          "rows": 720,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "has_billing_identifiers": {
+          "rows": 720,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "is_promotional": {
+          "rows": 720,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "kind": {
+          "rows": 720,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "macro_f1": 1.0
+        },
+        "states_amount_owed": {
+          "rows": 720,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        }
+      },
+      "tr": {
+        "about_airline": {
+          "rows": 720,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "about_banking": {
+          "rows": 720,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "about_education": {
+          "rows": 720,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "about_electricity": {
+          "rows": 720,
+          "nll": 0.00542,
+          "brier": 0.00293,
+          "ece": 0.00168,
+          "accuracy": 0.99861,
+          "coverage": 1.0,
+          "precision_at_threshold": 0.99861
+        },
+        "about_telecom": {
+          "rows": 720,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "category#6": {
+          "rows": 400,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "macro_f1": 1.0
+        },
+        "from_billing_entity": {
+          "rows": 720,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "has_billing_identifiers": {
+          "rows": 720,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "is_promotional": {
+          "rows": 720,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "kind": {
+          "rows": 720,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "macro_f1": 1.0
+        },
+        "states_amount_owed": {
+          "rows": 720,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        }
+      },
+      "zh": {
+        "about_airline": {
+          "rows": 720,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "about_banking": {
+          "rows": 720,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "about_education": {
+          "rows": 720,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "about_electricity": {
+          "rows": 720,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "about_telecom": {
+          "rows": 720,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "category#6": {
+          "rows": 400,
+          "nll": 0.11759,
+          "brier": 0.03432,
+          "ece": 0.01806,
+          "accuracy": 0.98,
+          "coverage": 1.0,
+          "precision_at_threshold": 0.98,
+          "macro_f1": 0.74684
+        },
+        "from_billing_entity": {
+          "rows": 720,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "has_billing_identifiers": {
+          "rows": 720,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "is_promotional": {
+          "rows": 720,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "kind": {
+          "rows": 720,
+          "nll": 0.54073,
+          "brier": 0.10414,
+          "ece": 0.05312,
+          "accuracy": 0.94583,
+          "coverage": 1.0,
+          "precision_at_threshold": 0.94583,
+          "macro_f1": 0.93671
+        },
+        "states_amount_owed": {
+          "rows": 720,
+          "nll": 0.00384,
+          "brier": 0.00244,
+          "ece": 0.0013,
+          "accuracy": 0.99861,
+          "coverage": 1.0,
+          "precision_at_threshold": 0.99861,
+          "auroc": 1.0
+        }
+      }
+    }
+  },
+  "variant": {
+    "calibration": {
+      "account_statement": {
+        "about_airline": {
+          "rows": 42,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "about_banking": {
+          "rows": 42,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "about_education": {
+          "rows": 42,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "about_electricity": {
+          "rows": 42,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "about_telecom": {
+          "rows": 42,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "from_billing_entity": {
+          "rows": 42,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "has_billing_identifiers": {
+          "rows": 42,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "is_promotional": {
+          "rows": 42,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "kind": {
+          "rows": 42,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "states_amount_owed": {
+          "rows": 42,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        }
+      },
+      "invoice": {
+        "about_airline": {
+          "rows": 42,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "about_banking": {
+          "rows": 42,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "about_education": {
+          "rows": 42,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "about_electricity": {
+          "rows": 42,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "about_telecom": {
+          "rows": 42,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "category#6": {
+          "rows": 56,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "macro_f1": 1.0
+        },
+        "category#7": {
+          "rows": 14,
+          "nll": 0.00011,
+          "brier": 0.0,
+          "ece": 0.00011,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "macro_f1": 1.0
+        },
+        "from_billing_entity": {
+          "rows": 42,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "has_billing_identifiers": {
+          "rows": 42,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "is_promotional": {
+          "rows": 42,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "kind": {
+          "rows": 42,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "states_amount_owed": {
+          "rows": 42,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        }
+      },
+      "invoice_link": {
+        "about_airline": {
+          "rows": 42,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "about_banking": {
+          "rows": 42,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "about_education": {
+          "rows": 42,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "about_electricity": {
+          "rows": 42,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "about_telecom": {
+          "rows": 42,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "category#6": {
+          "rows": 42,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "macro_f1": 1.0
+        },
+        "from_billing_entity": {
+          "rows": 42,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "has_billing_identifiers": {
+          "rows": 42,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "is_promotional": {
+          "rows": 42,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "kind": {
+          "rows": 42,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "states_amount_owed": {
+          "rows": 42,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        }
+      },
+      "newsletter": {
+        "about_airline": {
+          "rows": 42,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "about_banking": {
+          "rows": 42,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "about_education": {
+          "rows": 42,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "about_electricity": {
+          "rows": 42,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "about_telecom": {
+          "rows": 42,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "from_billing_entity": {
+          "rows": 42,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "has_billing_identifiers": {
+          "rows": 42,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "is_promotional": {
+          "rows": 42,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "kind": {
+          "rows": 42,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "states_amount_owed": {
+          "rows": 42,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        }
+      },
+      "promotion": {
+        "about_airline": {
+          "rows": 42,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "about_banking": {
+          "rows": 42,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "about_education": {
+          "rows": 42,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "about_electricity": {
+          "rows": 42,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "about_telecom": {
+          "rows": 42,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "from_billing_entity": {
+          "rows": 42,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "has_billing_identifiers": {
+          "rows": 42,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "is_promotional": {
+          "rows": 42,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "kind": {
+          "rows": 42,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "states_amount_owed": {
+          "rows": 42,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        }
+      },
+      "provider_counterfactual": {
+        "about_airline": {
+          "rows": 42,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "about_banking": {
+          "rows": 42,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "about_education": {
+          "rows": 42,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "about_electricity": {
+          "rows": 42,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "about_telecom": {
+          "rows": 42,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "category#6": {
+          "rows": 42,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "macro_f1": 1.0
+        },
+        "from_billing_entity": {
+          "rows": 42,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "has_billing_identifiers": {
+          "rows": 42,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "is_promotional": {
+          "rows": 42,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "kind": {
+          "rows": 42,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "states_amount_owed": {
+          "rows": 42,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        }
+      },
+      "receipt": {
+        "about_airline": {
+          "rows": 42,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "about_banking": {
+          "rows": 42,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "about_education": {
+          "rows": 42,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "about_electricity": {
+          "rows": 42,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "about_telecom": {
+          "rows": 42,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "category#6": {
+          "rows": 42,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "macro_f1": 1.0
+        },
+        "from_billing_entity": {
+          "rows": 42,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "has_billing_identifiers": {
+          "rows": 42,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "is_promotional": {
+          "rows": 42,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "kind": {
+          "rows": 42,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "states_amount_owed": {
+          "rows": 42,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        }
+      },
+      "relay_invoice": {
+        "about_airline": {
+          "rows": 42,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "about_banking": {
+          "rows": 42,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "about_education": {
+          "rows": 42,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "about_electricity": {
+          "rows": 42,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "about_telecom": {
+          "rows": 42,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "category#6": {
+          "rows": 42,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "macro_f1": 1.0
+        },
+        "from_billing_entity": {
+          "rows": 42,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "has_billing_identifiers": {
+          "rows": 42,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "is_promotional": {
+          "rows": 42,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "kind": {
+          "rows": 42,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "states_amount_owed": {
+          "rows": 42,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        }
+      },
+      "shipping": {
+        "about_airline": {
+          "rows": 42,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "about_banking": {
+          "rows": 42,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "about_education": {
+          "rows": 42,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "about_electricity": {
+          "rows": 42,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "about_telecom": {
+          "rows": 42,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "from_billing_entity": {
+          "rows": 42,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "has_billing_identifiers": {
+          "rows": 42,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "is_promotional": {
+          "rows": 42,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "kind": {
+          "rows": 42,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "states_amount_owed": {
+          "rows": 42,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        }
+      }
+    },
+    "validation": {
+      "account_statement": {
+        "about_airline": {
+          "rows": 63,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "about_banking": {
+          "rows": 63,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "about_education": {
+          "rows": 63,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "about_electricity": {
+          "rows": 63,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "about_telecom": {
+          "rows": 63,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "from_billing_entity": {
+          "rows": 63,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "has_billing_identifiers": {
+          "rows": 63,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "is_promotional": {
+          "rows": 63,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "kind": {
+          "rows": 63,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "states_amount_owed": {
+          "rows": 63,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        }
+      },
+      "invoice": {
+        "about_airline": {
+          "rows": 63,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "about_banking": {
+          "rows": 63,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "about_education": {
+          "rows": 63,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "about_electricity": {
+          "rows": 63,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "about_telecom": {
+          "rows": 63,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "category#6": {
+          "rows": 84,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "macro_f1": 1.0
+        },
+        "category#7": {
+          "rows": 21,
+          "nll": 0.00014,
+          "brier": 0.0,
+          "ece": 0.00014,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "macro_f1": 1.0
+        },
+        "from_billing_entity": {
+          "rows": 63,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "has_billing_identifiers": {
+          "rows": 63,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "is_promotional": {
+          "rows": 63,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "kind": {
+          "rows": 63,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "states_amount_owed": {
+          "rows": 63,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        }
+      },
+      "invoice_link": {
+        "about_airline": {
+          "rows": 63,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "about_banking": {
+          "rows": 63,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "about_education": {
+          "rows": 63,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "about_electricity": {
+          "rows": 63,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "about_telecom": {
+          "rows": 63,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "category#6": {
+          "rows": 63,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "macro_f1": 1.0
+        },
+        "from_billing_entity": {
+          "rows": 63,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "has_billing_identifiers": {
+          "rows": 63,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "is_promotional": {
+          "rows": 63,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "kind": {
+          "rows": 63,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "states_amount_owed": {
+          "rows": 63,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        }
+      },
+      "newsletter": {
+        "about_airline": {
+          "rows": 63,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "about_banking": {
+          "rows": 63,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "about_education": {
+          "rows": 63,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "about_electricity": {
+          "rows": 63,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "about_telecom": {
+          "rows": 63,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "from_billing_entity": {
+          "rows": 63,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "has_billing_identifiers": {
+          "rows": 63,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "is_promotional": {
+          "rows": 63,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "kind": {
+          "rows": 63,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "states_amount_owed": {
+          "rows": 63,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        }
+      },
+      "promotion": {
+        "about_airline": {
+          "rows": 63,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "about_banking": {
+          "rows": 63,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "about_education": {
+          "rows": 63,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "about_electricity": {
+          "rows": 63,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "about_telecom": {
+          "rows": 63,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "from_billing_entity": {
+          "rows": 63,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "has_billing_identifiers": {
+          "rows": 63,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "is_promotional": {
+          "rows": 63,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "kind": {
+          "rows": 63,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "states_amount_owed": {
+          "rows": 63,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        }
+      },
+      "provider_counterfactual": {
+        "about_airline": {
+          "rows": 63,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "about_banking": {
+          "rows": 63,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "about_education": {
+          "rows": 63,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "about_electricity": {
+          "rows": 63,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "about_telecom": {
+          "rows": 63,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "category#6": {
+          "rows": 63,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "macro_f1": 1.0
+        },
+        "from_billing_entity": {
+          "rows": 63,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "has_billing_identifiers": {
+          "rows": 63,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "is_promotional": {
+          "rows": 63,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "kind": {
+          "rows": 63,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "states_amount_owed": {
+          "rows": 63,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        }
+      },
+      "receipt": {
+        "about_airline": {
+          "rows": 63,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "about_banking": {
+          "rows": 63,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "about_education": {
+          "rows": 63,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "about_electricity": {
+          "rows": 63,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "about_telecom": {
+          "rows": 63,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "category#6": {
+          "rows": 63,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "macro_f1": 1.0
+        },
+        "from_billing_entity": {
+          "rows": 63,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "has_billing_identifiers": {
+          "rows": 63,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "is_promotional": {
+          "rows": 63,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "kind": {
+          "rows": 63,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "states_amount_owed": {
+          "rows": 63,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        }
+      },
+      "relay_invoice": {
+        "about_airline": {
+          "rows": 63,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "about_banking": {
+          "rows": 63,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "about_education": {
+          "rows": 63,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "about_electricity": {
+          "rows": 63,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "about_telecom": {
+          "rows": 63,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "category#6": {
+          "rows": 63,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "macro_f1": 1.0
+        },
+        "from_billing_entity": {
+          "rows": 63,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "has_billing_identifiers": {
+          "rows": 63,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "is_promotional": {
+          "rows": 63,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "kind": {
+          "rows": 63,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "states_amount_owed": {
+          "rows": 63,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        }
+      },
+      "shipping": {
+        "about_airline": {
+          "rows": 63,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "about_banking": {
+          "rows": 63,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "about_education": {
+          "rows": 63,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "about_electricity": {
+          "rows": 63,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "about_telecom": {
+          "rows": 63,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "from_billing_entity": {
+          "rows": 63,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "has_billing_identifiers": {
+          "rows": 63,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "is_promotional": {
+          "rows": 63,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "kind": {
+          "rows": 63,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "states_amount_owed": {
+          "rows": 63,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        }
+      }
+    },
+    "test": {
+      "account_statement": {
+        "about_airline": {
+          "rows": 87,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "about_banking": {
+          "rows": 87,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "about_education": {
+          "rows": 87,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "about_electricity": {
+          "rows": 87,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "about_telecom": {
+          "rows": 87,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "from_billing_entity": {
+          "rows": 87,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "has_billing_identifiers": {
+          "rows": 87,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "is_promotional": {
+          "rows": 87,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "kind": {
+          "rows": 87,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "states_amount_owed": {
+          "rows": 87,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        }
+      },
+      "invoice": {
+        "about_airline": {
+          "rows": 87,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "about_banking": {
+          "rows": 87,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "about_education": {
+          "rows": 87,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "about_electricity": {
+          "rows": 87,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "about_telecom": {
+          "rows": 87,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "category#6": {
+          "rows": 116,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "macro_f1": 1.0
+        },
+        "category#7": {
+          "rows": 29,
+          "nll": 9e-05,
+          "brier": 0.0,
+          "ece": 9e-05,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "macro_f1": 1.0
+        },
+        "from_billing_entity": {
+          "rows": 87,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "has_billing_identifiers": {
+          "rows": 87,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "is_promotional": {
+          "rows": 87,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "kind": {
+          "rows": 87,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "states_amount_owed": {
+          "rows": 87,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        }
+      },
+      "invoice_link": {
+        "about_airline": {
+          "rows": 87,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "about_banking": {
+          "rows": 87,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "about_education": {
+          "rows": 87,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "about_electricity": {
+          "rows": 87,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "about_telecom": {
+          "rows": 87,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "category#6": {
+          "rows": 87,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "macro_f1": 1.0
+        },
+        "from_billing_entity": {
+          "rows": 87,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "has_billing_identifiers": {
+          "rows": 87,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "is_promotional": {
+          "rows": 87,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "kind": {
+          "rows": 87,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "states_amount_owed": {
+          "rows": 87,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        }
+      },
+      "newsletter": {
+        "about_airline": {
+          "rows": 87,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "about_banking": {
+          "rows": 87,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "about_education": {
+          "rows": 87,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "about_electricity": {
+          "rows": 87,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "about_telecom": {
+          "rows": 87,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "from_billing_entity": {
+          "rows": 87,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "has_billing_identifiers": {
+          "rows": 87,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "is_promotional": {
+          "rows": 87,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "kind": {
+          "rows": 87,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "states_amount_owed": {
+          "rows": 87,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        }
+      },
+      "promotion": {
+        "about_airline": {
+          "rows": 87,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "about_banking": {
+          "rows": 87,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "about_education": {
+          "rows": 87,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "about_electricity": {
+          "rows": 87,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "about_telecom": {
+          "rows": 87,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "from_billing_entity": {
+          "rows": 87,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "has_billing_identifiers": {
+          "rows": 87,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "is_promotional": {
+          "rows": 87,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "kind": {
+          "rows": 87,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "states_amount_owed": {
+          "rows": 87,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        }
+      },
+      "provider_counterfactual": {
+        "about_airline": {
+          "rows": 87,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "about_banking": {
+          "rows": 87,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "about_education": {
+          "rows": 87,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "about_electricity": {
+          "rows": 87,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "about_telecom": {
+          "rows": 87,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "category#6": {
+          "rows": 87,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "macro_f1": 1.0
+        },
+        "from_billing_entity": {
+          "rows": 87,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "has_billing_identifiers": {
+          "rows": 87,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "is_promotional": {
+          "rows": 87,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "kind": {
+          "rows": 87,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "states_amount_owed": {
+          "rows": 87,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        }
+      },
+      "receipt": {
+        "about_airline": {
+          "rows": 87,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "about_banking": {
+          "rows": 87,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "about_education": {
+          "rows": 87,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "about_electricity": {
+          "rows": 87,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "about_telecom": {
+          "rows": 87,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "category#6": {
+          "rows": 87,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "macro_f1": 1.0
+        },
+        "from_billing_entity": {
+          "rows": 87,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "has_billing_identifiers": {
+          "rows": 87,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "is_promotional": {
+          "rows": 87,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "kind": {
+          "rows": 87,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "states_amount_owed": {
+          "rows": 87,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        }
+      },
+      "relay_invoice": {
+        "about_airline": {
+          "rows": 87,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "about_banking": {
+          "rows": 87,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "about_education": {
+          "rows": 87,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "about_electricity": {
+          "rows": 87,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "about_telecom": {
+          "rows": 87,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "category#6": {
+          "rows": 87,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "macro_f1": 1.0
+        },
+        "from_billing_entity": {
+          "rows": 87,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "has_billing_identifiers": {
+          "rows": 87,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "is_promotional": {
+          "rows": 87,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "kind": {
+          "rows": 87,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "states_amount_owed": {
+          "rows": 87,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        }
+      },
+      "shipping": {
+        "about_airline": {
+          "rows": 87,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "about_banking": {
+          "rows": 87,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "about_education": {
+          "rows": 87,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "about_electricity": {
+          "rows": 87,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "about_telecom": {
+          "rows": 87,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "from_billing_entity": {
+          "rows": 87,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "has_billing_identifiers": {
+          "rows": 87,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "is_promotional": {
+          "rows": 87,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "kind": {
+          "rows": 87,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "states_amount_owed": {
+          "rows": 87,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        }
+      }
+    },
+    "ood": {
+      "account_statement": {
+        "about_airline": {
+          "rows": 240,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "about_banking": {
+          "rows": 240,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "about_education": {
+          "rows": 240,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "about_electricity": {
+          "rows": 240,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "about_telecom": {
+          "rows": 240,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "from_billing_entity": {
+          "rows": 240,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "has_billing_identifiers": {
+          "rows": 240,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "is_promotional": {
+          "rows": 240,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "kind": {
+          "rows": 240,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "states_amount_owed": {
+          "rows": 240,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        }
+      },
+      "invoice": {
+        "about_airline": {
+          "rows": 240,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "about_banking": {
+          "rows": 240,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "about_education": {
+          "rows": 240,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "about_electricity": {
+          "rows": 240,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "about_telecom": {
+          "rows": 240,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "category#6": {
+          "rows": 320,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "category#7": {
+          "rows": 80,
+          "nll": 0.09777,
+          "brier": 0.03319,
+          "ece": 0.08787,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "from_billing_entity": {
+          "rows": 240,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "has_billing_identifiers": {
+          "rows": 240,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "is_promotional": {
+          "rows": 240,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "kind": {
+          "rows": 240,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "states_amount_owed": {
+          "rows": 240,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        }
+      },
+      "invoice_link": {
+        "about_airline": {
+          "rows": 240,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "about_banking": {
+          "rows": 240,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "about_education": {
+          "rows": 240,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "about_electricity": {
+          "rows": 240,
+          "nll": 0.00922,
+          "brier": 0.00607,
+          "ece": 0.00542,
+          "accuracy": 0.99583,
+          "coverage": 1.0,
+          "precision_at_threshold": 0.99583
+        },
+        "about_telecom": {
+          "rows": 240,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "category#6": {
+          "rows": 240,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "from_billing_entity": {
+          "rows": 240,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "has_billing_identifiers": {
+          "rows": 240,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "is_promotional": {
+          "rows": 240,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "kind": {
+          "rows": 240,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "states_amount_owed": {
+          "rows": 240,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        }
+      },
+      "newsletter": {
+        "about_airline": {
+          "rows": 240,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "about_banking": {
+          "rows": 240,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "about_education": {
+          "rows": 240,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "about_electricity": {
+          "rows": 240,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "about_telecom": {
+          "rows": 240,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "from_billing_entity": {
+          "rows": 240,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "has_billing_identifiers": {
+          "rows": 240,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "is_promotional": {
+          "rows": 240,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "kind": {
+          "rows": 240,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "states_amount_owed": {
+          "rows": 240,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        }
+      },
+      "promotion": {
+        "about_airline": {
+          "rows": 240,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "about_banking": {
+          "rows": 240,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "about_education": {
+          "rows": 240,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "about_electricity": {
+          "rows": 240,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "about_telecom": {
+          "rows": 240,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "from_billing_entity": {
+          "rows": 240,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "has_billing_identifiers": {
+          "rows": 240,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "is_promotional": {
+          "rows": 240,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "kind": {
+          "rows": 240,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "states_amount_owed": {
+          "rows": 240,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        }
+      },
+      "provider_counterfactual": {
+        "about_airline": {
+          "rows": 240,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "about_banking": {
+          "rows": 240,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "about_education": {
+          "rows": 240,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "about_electricity": {
+          "rows": 240,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "about_telecom": {
+          "rows": 240,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "auroc": 1.0
+        },
+        "category#6": {
+          "rows": 240,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0,
+          "macro_f1": 1.0
+        },
+        "from_billing_entity": {
+          "rows": 240,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "has_billing_identifiers": {
+          "rows": 240,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "is_promotional": {
+          "rows": 240,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "kind": {
+          "rows": 240,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "states_amount_owed": {
+          "rows": 240,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        }
+      },
+      "receipt": {
+        "about_airline": {
+          "rows": 240,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "about_banking": {
+          "rows": 240,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "about_education": {
+          "rows": 240,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "about_electricity": {
+          "rows": 240,
+          "nll": 0.01412,
+          "brier": 0.00777,
+          "ece": 0.00395,
+          "accuracy": 0.99583,
+          "coverage": 1.0,
+          "precision_at_threshold": 0.99583
+        },
+        "about_telecom": {
+          "rows": 240,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "category#6": {
+          "rows": 240,
+          "nll": 0.00978,
+          "brier": 0.00445,
+          "ece": 0.00817,
+          "accuracy": 0.99583,
+          "coverage": 1.0,
+          "precision_at_threshold": 0.99583
+        },
+        "from_billing_entity": {
+          "rows": 240,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "has_billing_identifiers": {
+          "rows": 240,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "is_promotional": {
+          "rows": 240,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "kind": {
+          "rows": 240,
+          "nll": 1.62219,
+          "brier": 0.31241,
+          "ece": 0.15936,
+          "accuracy": 0.8375,
+          "coverage": 1.0,
+          "precision_at_threshold": 0.8375
+        },
+        "states_amount_owed": {
+          "rows": 240,
+          "nll": 0.01152,
+          "brier": 0.00732,
+          "ece": 0.0039,
+          "accuracy": 0.99583,
+          "coverage": 1.0,
+          "precision_at_threshold": 0.99583
+        }
+      },
+      "relay_invoice": {
+        "about_airline": {
+          "rows": 240,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "about_banking": {
+          "rows": 240,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "about_education": {
+          "rows": 240,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "about_electricity": {
+          "rows": 240,
+          "nll": 0.00213,
+          "brier": 0.00102,
+          "ece": 0.00179,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "about_telecom": {
+          "rows": 240,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "category#6": {
+          "rows": 240,
+          "nll": 0.19581,
+          "brier": 0.0572,
+          "ece": 0.03028,
+          "accuracy": 0.96667,
+          "coverage": 1.0,
+          "precision_at_threshold": 0.96667
+        },
+        "from_billing_entity": {
+          "rows": 240,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "has_billing_identifiers": {
+          "rows": 240,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "is_promotional": {
+          "rows": 240,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "kind": {
+          "rows": 240,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "states_amount_owed": {
+          "rows": 240,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        }
+      },
+      "shipping": {
+        "about_airline": {
+          "rows": 240,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "about_banking": {
+          "rows": 240,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "about_education": {
+          "rows": 240,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "about_electricity": {
+          "rows": 240,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "about_telecom": {
+          "rows": 240,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "from_billing_entity": {
+          "rows": 240,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "has_billing_identifiers": {
+          "rows": 240,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "is_promotional": {
+          "rows": 240,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "kind": {
+          "rows": 240,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "states_amount_owed": {
+          "rows": 240,
+          "nll": 0.0,
+          "brier": 0.0,
+          "ece": 0.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "precision_at_threshold": 1.0
+        }
+      }
+    }
+  },
+  "confusion": {
+    "calibration/category#6": {
+      "options": [
+        "airline",
+        "banking",
+        "education",
+        "electricity",
+        "other",
+        "telecom"
+      ],
+      "matrix": [
+        [
+          6,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          13,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          41,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          13,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          112,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          39
+        ]
+      ]
+    },
+    "calibration/category#7": {
+      "options": [
+        "airline",
+        "banking",
+        "education",
+        "electricity",
+        "insurance",
+        "other",
+        "telecom"
+      ],
+      "matrix": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          2,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          5,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          3
+        ]
+      ]
+    },
+    "calibration/kind": {
+      "options": [
+        "account_statement",
+        "invoice",
+        "newsletter",
+        "other",
+        "payment_confirmation",
+        "promotion"
+      ],
+      "matrix": [
+        [
+          42,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          168,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          42,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          42,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          42,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          42
+        ]
+      ]
+    },
+    "validation/category#6": {
+      "options": [
+        "airline",
+        "banking",
+        "education",
+        "electricity",
+        "other",
+        "telecom"
+      ],
+      "matrix": [
+        [
+          16,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          26,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          22,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          25,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          169,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          78
+        ]
+      ]
+    },
+    "validation/category#7": {
+      "options": [
+        "airline",
+        "banking",
+        "education",
+        "electricity",
+        "insurance",
+        "other",
+        "telecom"
+      ],
+      "matrix": [
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          7,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          6
+        ]
+      ]
+    },
+    "validation/kind": {
+      "options": [
+        "account_statement",
+        "invoice",
+        "newsletter",
+        "other",
+        "payment_confirmation",
+        "promotion"
+      ],
+      "matrix": [
+        [
+          63,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          252,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          63,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          63,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          63,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          63
+        ]
+      ]
+    },
+    "test/category#6": {
+      "options": [
+        "airline",
+        "banking",
+        "education",
+        "electricity",
+        "other",
+        "telecom"
+      ],
+      "matrix": [
+        [
+          64,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          52,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          61,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          71,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          164,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          52
+        ]
+      ]
+    },
+    "test/category#7": {
+      "options": [
+        "airline",
+        "banking",
+        "education",
+        "electricity",
+        "insurance",
+        "other",
+        "telecom"
+      ],
+      "matrix": [
+        [
+          4,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          4,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          4,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          5,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          5,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          4
+        ]
+      ]
+    },
+    "test/kind": {
+      "options": [
+        "account_statement",
+        "invoice",
+        "newsletter",
+        "other",
+        "payment_confirmation",
+        "promotion"
+      ],
+      "matrix": [
+        [
+          87,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          348,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          87,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          87,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          87,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          87
+        ]
+      ]
+    },
+    "ood/category#6": {
+      "options": [
+        "airline",
+        "banking",
+        "education",
+        "electricity",
+        "other",
+        "telecom"
+      ],
+      "matrix": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          120,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          8,
+          1031,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          120
+        ]
+      ]
+    },
+    "ood/category#7": {
+      "options": [
+        "airline",
+        "banking",
+        "education",
+        "electricity",
+        "insurance",
+        "other",
+        "telecom"
+      ],
+      "matrix": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          80,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    "ood/kind": {
+      "options": [
+        "account_statement",
+        "invoice",
+        "newsletter",
+        "other",
+        "payment_confirmation",
+        "promotion"
+      ],
+      "matrix": [
+        [
+          240,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          960,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          240,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          240,
+          0,
+          0
+        ],
+        [
+          0,
+          39,
+          0,
+          0,
+          201,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          240
+        ]
+      ]
+    }
+  },
+  "agreement": {
+    "invoice_without_amount_owed": {
+      "cases": 783,
+      "flagged": 87,
+      "rate": 0.1111
+    }
+  },
+  "summary": {
+    "calibration": {
+      "rows": 4018,
+      "micro_accuracy": 1.0,
+      "language": {
+        "en": {
+          "rows": 1358,
+          "micro_accuracy": 1.0
+        },
+        "tr": {
+          "rows": 1330,
+          "micro_accuracy": 1.0
+        },
+        "zh": {
+          "rows": 1330,
+          "micro_accuracy": 1.0
+        }
+      }
+    },
+    "validation": {
+      "rows": 6027,
+      "micro_accuracy": 1.0,
+      "language": {
+        "en": {
+          "rows": 2037,
+          "micro_accuracy": 1.0
+        },
+        "tr": {
+          "rows": 1995,
+          "micro_accuracy": 1.0
+        },
+        "zh": {
+          "rows": 1995,
+          "micro_accuracy": 1.0
+        }
+      }
+    },
+    "test": {
+      "rows": 8323,
+      "micro_accuracy": 1.0,
+      "language": {
+        "en": {
+          "rows": 2813,
+          "micro_accuracy": 1.0
+        },
+        "tr": {
+          "rows": 2755,
+          "micro_accuracy": 1.0
+        },
+        "zh": {
+          "rows": 2755,
+          "micro_accuracy": 1.0
+        }
+      }
+    },
+    "ood": {
+      "rows": 22960,
+      "micro_accuracy": 0.99778,
+      "language": {
+        "en": {
+          "rows": 7760,
+          "micro_accuracy": 0.99974
+        },
+        "tr": {
+          "rows": 7600,
+          "micro_accuracy": 0.99987
+        },
+        "zh": {
+          "rows": 7600,
+          "micro_accuracy": 0.99368
+        }
+      }
+    }
+  }
+}

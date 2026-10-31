@@ -1,0 +1,333 @@
+{
+  "splits": {
+    "train": {
+      "rows": 73472,
+      "expected": 73472,
+      "matches_expected": true,
+      "language": {
+        "en": 24832,
+        "tr": 24320,
+        "zh": 24320
+      },
+      "heads": {
+        "about_airline": 6912,
+        "about_banking": 6912,
+        "about_education": 6912,
+        "about_electricity": 6912,
+        "about_telecom": 6912,
+        "category#6": 4096,
+        "category#7": 256,
+        "from_billing_entity": 6912,
+        "has_billing_identifiers": 6912,
+        "is_promotional": 6912,
+        "kind": 6912,
+        "states_amount_owed": 6912
+      },
+      "top_variants": {
+        "invoice:en:base": 2816,
+        "invoice_link:en:base": 2816,
+        "relay_invoice:en:base": 2816,
+        "receipt:en:base": 2816,
+        "provider_counterfactual:en:base": 2816,
+        "invoice:zh:base": 2816,
+        "invoice_link:zh:base": 2816,
+        "relay_invoice:zh:base": 2816
+      },
+      "duplicate_texts": 256
+    },
+    "calibration": {
+      "rows": 4018,
+      "expected": 4018,
+      "matches_expected": true,
+      "language": {
+        "en": 1358,
+        "tr": 1330,
+        "zh": 1330
+      },
+      "heads": {
+        "about_airline": 378,
+        "about_banking": 378,
+        "about_education": 378,
+        "about_electricity": 378,
+        "about_telecom": 378,
+        "category#6": 224,
+        "category#7": 14,
+        "from_billing_entity": 378,
+        "has_billing_identifiers": 378,
+        "is_promotional": 378,
+        "kind": 378,
+        "states_amount_owed": 378
+      },
+      "top_variants": {
+        "invoice:en:base": 154,
+        "invoice_link:en:base": 154,
+        "relay_invoice:en:base": 154,
+        "receipt:en:base": 154,
+        "provider_counterfactual:en:base": 154,
+        "invoice:zh:base": 154,
+        "invoice_link:zh:base": 154,
+        "relay_invoice:zh:base": 154
+      },
+      "duplicate_texts": 14
+    },
+    "validation": {
+      "rows": 6027,
+      "expected": 6027,
+      "matches_expected": true,
+      "language": {
+        "en": 2037,
+        "tr": 1995,
+        "zh": 1995
+      },
+      "heads": {
+        "about_airline": 567,
+        "about_banking": 567,
+        "about_education": 567,
+        "about_electricity": 567,
+        "about_telecom": 567,
+        "category#6": 336,
+        "category#7": 21,
+        "from_billing_entity": 567,
+        "has_billing_identifiers": 567,
+        "is_promotional": 567,
+        "kind": 567,
+        "states_amount_owed": 567
+      },
+      "top_variants": {
+        "invoice:en:base": 231,
+        "invoice_link:en:base": 231,
+        "relay_invoice:en:base": 231,
+        "receipt:en:base": 231,
+        "provider_counterfactual:en:base": 231,
+        "invoice:zh:base": 231,
+        "invoice_link:zh:base": 231,
+        "relay_invoice:zh:base": 231
+      },
+      "duplicate_texts": 21
+    },
+    "test": {
+      "rows": 8323,
+      "expected": 8323,
+      "matches_expected": true,
+      "language": {
+        "en": 2813,
+        "tr": 2755,
+        "zh": 2755
+      },
+      "heads": {
+        "about_airline": 783,
+        "about_banking": 783,
+        "about_education": 783,
+        "about_electricity": 783,
+        "about_telecom": 783,
+        "category#6": 464,
+        "category#7": 29,
+        "from_billing_entity": 783,
+        "has_billing_identifiers": 783,
+        "is_promotional": 783,
+        "kind": 783,
+        "states_amount_owed": 783
+      },
+      "top_variants": {
+        "invoice:en:base": 319,
+        "invoice_link:en:base": 319,
+        "relay_invoice:en:base": 319,
+        "receipt:en:base": 319,
+        "provider_counterfactual:en:base": 319,
+        "invoice:zh:base": 319,
+        "invoice_link:zh:base": 319,
+        "relay_invoice:zh:base": 319
+      },
+      "duplicate_texts": 29
+    },
+    "ood": {
+      "rows": 22960,
+      "expected": 22960,
+      "matches_expected": true,
+      "language": {
+        "en": 7760,
+        "tr": 7600,
+        "zh": 7600
+      },
+      "heads": {
+        "about_airline": 2160,
+        "about_banking": 2160,
+        "about_education": 2160,
+        "about_electricity": 2160,
+        "about_telecom": 2160,
+        "category#6": 1280,
+        "category#7": 80,
+        "from_billing_entity": 2160,
+        "has_billing_identifiers": 2160,
+        "is_promotional": 2160,
+        "kind": 2160,
+        "states_amount_owed": 2160
+      },
+      "top_variants": {
+        "invoice:en:base": 880,
+        "invoice_link:en:base": 880,
+        "relay_invoice:en:base": 880,
+        "receipt:en:base": 880,
+        "provider_counterfactual:en:base": 880,
+        "invoice:zh:base": 880,
+        "invoice_link:zh:base": 880,
+        "relay_invoice:zh:base": 880
+      },
+      "duplicate_texts": 80
+    }
+  },
+  "heads": {
+    "about_airline": {
+      "question_id": "about_airline",
+      "kind": "noul",
+      "options": [
+        "no",
+        "yes"
+      ],
+      "default": true,
+      "train_rows": 6912,
+      "positive_rate": 0.1055
+    },
+    "about_banking": {
+      "question_id": "about_banking",
+      "kind": "noul",
+      "options": [
+        "no",
+        "yes"
+      ],
+      "default": true,
+      "train_rows": 6912,
+      "positive_rate": 0.197
+    },
+    "about_education": {
+      "question_id": "about_education",
+      "kind": "noul",
+      "options": [
+        "no",
+        "yes"
+      ],
+      "default": true,
+      "train_rows": 6912,
+      "positive_rate": 0.0985
+    },
+    "about_electricity": {
+      "question_id": "about_electricity",
+      "kind": "noul",
+      "options": [
+        "no",
+        "yes"
+      ],
+      "default": true,
+      "train_rows": 6912,
+      "positive_rate": 0.1007
+    },
+    "about_telecom": {
+      "question_id": "about_telecom",
+      "kind": "noul",
+      "options": [
+        "no",
+        "yes"
+      ],
+      "default": true,
+      "train_rows": 6912,
+      "positive_rate": 0.0703
+    },
+    "category#6": {
+      "question_id": "category",
+      "kind": "choice",
+      "options": [
+        "airline: An air carrier's own ticket, baggage, seat or flight service; not an agency or hotel.",
+        "banking: A financial institution's own account/card fees, interest or commissions; not a utility merely paid through a bank.",
+        "education: Education services billed by the educational institution; a student's telephone bill is not education.",
+        "electricity: Electrical power billed by its supplier; not water or electrical equipment sold by a shop.",
+        "other: A provider's bill for a service outside the named categories.",
+        "telecom: Mobile or fixed telephone service billed by its operator; not a handset sold by a retailer."
+      ],
+      "default": true,
+      "train_rows": 4096,
+      "positive_rate": null
+    },
+    "category#7": {
+      "question_id": "category",
+      "kind": "choice",
+      "options": [
+        "airline: An air carrier's own ticket, baggage, seat or flight service; not an agency or hotel.",
+        "banking: A financial institution's own account/card fees, interest or commissions; not a utility merely paid through a bank.",
+        "education: Education services billed by the educational institution; a student's telephone bill is not education.",
+        "electricity: Electrical power billed by its supplier; not water or electrical equipment sold by a shop.",
+        "insurance: An insurer's own insurance policy or premium.",
+        "other: A provider's bill for a service outside the named categories.",
+        "telecom: Mobile or fixed telephone service billed by its operator; not a handset sold by a retailer."
+      ],
+      "default": false,
+      "train_rows": 256,
+      "positive_rate": null
+    },
+    "from_billing_entity": {
+      "question_id": "from_billing_entity",
+      "kind": "noul",
+      "options": [
+        "no",
+        "yes"
+      ],
+      "default": true,
+      "train_rows": 6912,
+      "positive_rate": 0.3333
+    },
+    "has_billing_identifiers": {
+      "question_id": "has_billing_identifiers",
+      "kind": "noul",
+      "options": [
+        "no",
+        "yes"
+      ],
+      "default": true,
+      "train_rows": 6912,
+      "positive_rate": 0.5556
+    },
+    "is_promotional": {
+      "question_id": "is_promotional",
+      "kind": "noul",
+      "options": [
+        "no",
+        "yes"
+      ],
+      "default": true,
+      "train_rows": 6912,
+      "positive_rate": 0.1111
+    },
+    "kind": {
+      "question_id": "kind",
+      "kind": "choice",
+      "options": [
+        "account_statement: A periodic bank/card activity summary, rather than an issued bill or payment receipt.",
+        "invoice: An issued bill, invoice, or charges statement. An announcement linking to an invoice is enough even if the email omits its amount.",
+        "newsletter: A recurring informational bulletin with no offer or money owed.",
+        "other: Other mail, such as shipping, appointments, or account-access notifications.",
+        "payment_confirmation: Confirmation of money already paid or received, with no new demand for payment.",
+        "promotion: An offer, discount, or advertisement that sells something without asserting an existing debt."
+      ],
+      "default": true,
+      "train_rows": 6912,
+      "positive_rate": null
+    },
+    "states_amount_owed": {
+      "question_id": "states_amount_owed",
+      "kind": "noul",
+      "options": [
+        "no",
+        "yes"
+      ],
+      "default": true,
+      "train_rows": 6912,
+      "positive_rate": 0.3333
+    }
+  },
+  "checks": {
+    "group_overlap": {},
+    "groups_disjoint": true,
+    "target_basis_in_text": false,
+    "metadata_in_text": false,
+    "duplicate_texts_total": 400
+  }
+}

@@ -1,0 +1,3854 @@
+{
+  "splits": {},
+  "heads": {
+    "about_airline": {
+      "kind": "noul",
+      "options": [
+        "no",
+        "yes"
+      ],
+      "train_rows": 6912,
+      "splits": {
+        "train": {
+          "count": 6912,
+          "hard_count": 6912,
+          "accuracy": 1.0,
+          "expected_accuracy": 1.0,
+          "nll": 0.017121830574461355,
+          "brier": 0.002031562975477529,
+          "expected_brier": 0.0020315629754775466,
+          "multiclass_ece": 0.016566198522250056,
+          "ece_bins": 15,
+          "coverage": [
+            {
+              "threshold": 0.5,
+              "selected": 6912,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.7,
+              "selected": 6912,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.8,
+              "selected": 6879,
+              "coverage": 0.9952256944444444,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.9,
+              "selected": 6708,
+              "coverage": 0.9704861111111112,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.95,
+              "selected": 6296,
+              "coverage": 0.9108796296296297,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.99,
+              "selected": 3999,
+              "coverage": 0.5785590277777778,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            }
+          ],
+          "auroc": 1.0
+        },
+        "calibration": {
+          "count": 378,
+          "hard_count": 378,
+          "accuracy": 1.0,
+          "expected_accuracy": 1.0,
+          "nll": 0.010326416967923566,
+          "brier": 0.0003246315815131516,
+          "expected_brier": 0.00032463158151315537,
+          "multiclass_ece": 0.010244221593252532,
+          "ece_bins": 15,
+          "coverage": [
+            {
+              "threshold": 0.5,
+              "selected": 378,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.7,
+              "selected": 378,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.8,
+              "selected": 378,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.9,
+              "selected": 378,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.95,
+              "selected": 378,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.99,
+              "selected": 202,
+              "coverage": 0.5343915343915344,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            }
+          ],
+          "auroc": 1.0
+        },
+        "validation": {
+          "count": 567,
+          "hard_count": 567,
+          "accuracy": 1.0,
+          "expected_accuracy": 1.0,
+          "nll": 0.010454934293306834,
+          "brier": 0.0003607416330591973,
+          "expected_brier": 0.0003607416330592004,
+          "multiclass_ece": 0.010363305650400388,
+          "ece_bins": 15,
+          "coverage": [
+            {
+              "threshold": 0.5,
+              "selected": 567,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.7,
+              "selected": 567,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.8,
+              "selected": 567,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.9,
+              "selected": 567,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.95,
+              "selected": 565,
+              "coverage": 0.9964726631393298,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.99,
+              "selected": 313,
+              "coverage": 0.5520282186948854,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            }
+          ],
+          "auroc": 1.0
+        },
+        "test": {
+          "count": 783,
+          "hard_count": 783,
+          "accuracy": 1.0,
+          "expected_accuracy": 1.0,
+          "nll": 0.011576701171622215,
+          "brier": 0.000518061174741288,
+          "expected_brier": 0.0005180611747412953,
+          "multiclass_ece": 0.011443839809594224,
+          "ece_bins": 15,
+          "coverage": [
+            {
+              "threshold": 0.5,
+              "selected": 783,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.7,
+              "selected": 783,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.8,
+              "selected": 783,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.9,
+              "selected": 782,
+              "coverage": 0.9987228607918263,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.95,
+              "selected": 771,
+              "coverage": 0.9846743295019157,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.99,
+              "selected": 425,
+              "coverage": 0.5427841634738186,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            }
+          ],
+          "auroc": 1.0
+        },
+        "ood": {
+          "count": 2160,
+          "hard_count": 2160,
+          "accuracy": 1.0,
+          "expected_accuracy": 1.0,
+          "nll": 0.011081284523277151,
+          "brier": 0.000430786021339228,
+          "expected_brier": 0.0004307860213392269,
+          "multiclass_ece": 0.010971760247167806,
+          "ece_bins": 15,
+          "coverage": [
+            {
+              "threshold": 0.5,
+              "selected": 2160,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.7,
+              "selected": 2160,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.8,
+              "selected": 2160,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.9,
+              "selected": 2160,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.95,
+              "selected": 2160,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.99,
+              "selected": 1396,
+              "coverage": 0.6462962962962963,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            }
+          ]
+        }
+      }
+    },
+    "about_banking": {
+      "kind": "noul",
+      "options": [
+        "no",
+        "yes"
+      ],
+      "train_rows": 6912,
+      "splits": {
+        "train": {
+          "count": 6912,
+          "hard_count": 6912,
+          "accuracy": 1.0,
+          "expected_accuracy": 1.0,
+          "nll": 0.017240266733008453,
+          "brier": 0.0016025376368732965,
+          "expected_brier": 0.0016025376368732885,
+          "multiclass_ece": 0.01681557986671734,
+          "ece_bins": 15,
+          "coverage": [
+            {
+              "threshold": 0.5,
+              "selected": 6912,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.7,
+              "selected": 6912,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.8,
+              "selected": 6912,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.9,
+              "selected": 6720,
+              "coverage": 0.9722222222222222,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.95,
+              "selected": 6318,
+              "coverage": 0.9140625,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.99,
+              "selected": 3764,
+              "coverage": 0.5445601851851852,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            }
+          ],
+          "auroc": 1.0
+        },
+        "calibration": {
+          "count": 378,
+          "hard_count": 378,
+          "accuracy": 1.0,
+          "expected_accuracy": 1.0,
+          "nll": 0.01235288067442741,
+          "brier": 0.0012607487621746046,
+          "expected_brier": 0.001260748762174605,
+          "multiclass_ece": 0.012012545365632897,
+          "ece_bins": 15,
+          "coverage": [
+            {
+              "threshold": 0.5,
+              "selected": 378,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.7,
+              "selected": 378,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.8,
+              "selected": 378,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.9,
+              "selected": 370,
+              "coverage": 0.9788359788359788,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.95,
+              "selected": 361,
+              "coverage": 0.955026455026455,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.99,
+              "selected": 275,
+              "coverage": 0.7275132275132276,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            }
+          ],
+          "auroc": 1.0
+        },
+        "validation": {
+          "count": 567,
+          "hard_count": 567,
+          "accuracy": 1.0,
+          "expected_accuracy": 1.0,
+          "nll": 0.0128481313416002,
+          "brier": 0.0015629938161758215,
+          "expected_brier": 0.0015629938161758202,
+          "multiclass_ece": 0.012424265359123835,
+          "ece_bins": 15,
+          "coverage": [
+            {
+              "threshold": 0.5,
+              "selected": 567,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.7,
+              "selected": 567,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.8,
+              "selected": 567,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.9,
+              "selected": 551,
+              "coverage": 0.9717813051146384,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.95,
+              "selected": 533,
+              "coverage": 0.9400352733686067,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.99,
+              "selected": 432,
+              "coverage": 0.7619047619047619,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            }
+          ],
+          "auroc": 1.0
+        },
+        "test": {
+          "count": 783,
+          "hard_count": 783,
+          "accuracy": 1.0,
+          "expected_accuracy": 1.0,
+          "nll": 0.018692333838206576,
+          "brier": 0.003527618343249253,
+          "expected_brier": 0.003527618343249246,
+          "multiclass_ece": 0.01769173708529914,
+          "ece_bins": 15,
+          "coverage": [
+            {
+              "threshold": 0.5,
+              "selected": 783,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.7,
+              "selected": 783,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.8,
+              "selected": 775,
+              "coverage": 0.9897828863346104,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.9,
+              "selected": 739,
+              "coverage": 0.9438058748403576,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.95,
+              "selected": 715,
+              "coverage": 0.913154533844189,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.99,
+              "selected": 553,
+              "coverage": 0.7062579821200511,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            }
+          ],
+          "auroc": 1.0
+        },
+        "ood": {
+          "count": 2160,
+          "hard_count": 2160,
+          "accuracy": 0.98148,
+          "expected_accuracy": 0.9814814814814815,
+          "nll": 0.02691915124492423,
+          "brier": 0.011466933378062108,
+          "expected_brier": 0.011466933378062092,
+          "multiclass_ece": 0.022271078682660348,
+          "ece_bins": 15,
+          "coverage": [
+            {
+              "threshold": 0.5,
+              "selected": 2160,
+              "coverage": 1.0,
+              "accuracy": 0.9814814814814815,
+              "expected_accuracy": 0.9814814814814815,
+              "expected_risk": 0.01851851851851849
+            },
+            {
+              "threshold": 0.7,
+              "selected": 2120,
+              "coverage": 0.9814814814814815,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.8,
+              "selected": 2120,
+              "coverage": 0.9814814814814815,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.9,
+              "selected": 2114,
+              "coverage": 0.9787037037037037,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.95,
+              "selected": 2035,
+              "coverage": 0.9421296296296297,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.99,
+              "selected": 1327,
+              "coverage": 0.6143518518518518,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            }
+          ],
+          "auroc": 1.0
+        }
+      }
+    },
+    "about_education": {
+      "kind": "noul",
+      "options": [
+        "no",
+        "yes"
+      ],
+      "train_rows": 6912,
+      "splits": {
+        "train": {
+          "count": 6912,
+          "hard_count": 6912,
+          "accuracy": 1.0,
+          "expected_accuracy": 1.0,
+          "nll": 0.017264250492088868,
+          "brier": 0.002154591543936695,
+          "expected_brier": 0.002154591543936695,
+          "multiclass_ece": 0.016670097522092663,
+          "ece_bins": 15,
+          "coverage": [
+            {
+              "threshold": 0.5,
+              "selected": 6912,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.7,
+              "selected": 6912,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.8,
+              "selected": 6883,
+              "coverage": 0.9958043981481481,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.9,
+              "selected": 6755,
+              "coverage": 0.9772858796296297,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.95,
+              "selected": 6363,
+              "coverage": 0.9205729166666666,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.99,
+              "selected": 4194,
+              "coverage": 0.6067708333333334,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            }
+          ],
+          "auroc": 1.0
+        },
+        "calibration": {
+          "count": 378,
+          "hard_count": 378,
+          "accuracy": 1.0,
+          "expected_accuracy": 1.0,
+          "nll": 0.013744608544803588,
+          "brier": 0.0008700187714832265,
+          "expected_brier": 0.0008700187714832341,
+          "multiclass_ece": 0.013517014478903433,
+          "ece_bins": 15,
+          "coverage": [
+            {
+              "threshold": 0.5,
+              "selected": 378,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.7,
+              "selected": 378,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.8,
+              "selected": 378,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.9,
+              "selected": 376,
+              "coverage": 0.9947089947089947,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.95,
+              "selected": 366,
+              "coverage": 0.9682539682539683,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.99,
+              "selected": 194,
+              "coverage": 0.5132275132275133,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            }
+          ],
+          "auroc": 1.0
+        },
+        "validation": {
+          "count": 567,
+          "hard_count": 567,
+          "accuracy": 1.0,
+          "expected_accuracy": 1.0,
+          "nll": 0.011390567369759474,
+          "brier": 0.00046308827498112094,
+          "expected_brier": 0.00046308827498112496,
+          "multiclass_ece": 0.011272301276284164,
+          "ece_bins": 15,
+          "coverage": [
+            {
+              "threshold": 0.5,
+              "selected": 567,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.7,
+              "selected": 567,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.8,
+              "selected": 567,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.9,
+              "selected": 567,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.95,
+              "selected": 563,
+              "coverage": 0.9929453262786596,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.99,
+              "selected": 322,
+              "coverage": 0.5679012345679012,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            }
+          ],
+          "auroc": 1.0
+        },
+        "test": {
+          "count": 783,
+          "hard_count": 783,
+          "accuracy": 1.0,
+          "expected_accuracy": 1.0,
+          "nll": 0.012791857236436742,
+          "brier": 0.0006378286226957235,
+          "expected_brier": 0.0006378286226957306,
+          "multiclass_ece": 0.012627920498269302,
+          "ece_bins": 15,
+          "coverage": [
+            {
+              "threshold": 0.5,
+              "selected": 783,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.7,
+              "selected": 783,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.8,
+              "selected": 783,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.9,
+              "selected": 783,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.95,
+              "selected": 767,
+              "coverage": 0.979565772669221,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.99,
+              "selected": 434,
+              "coverage": 0.5542784163473818,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            }
+          ],
+          "auroc": 1.0
+        },
+        "ood": {
+          "count": 2160,
+          "hard_count": 2160,
+          "accuracy": 1.0,
+          "expected_accuracy": 1.0,
+          "nll": 0.013650868980339468,
+          "brier": 0.0007058635334759389,
+          "expected_brier": 0.0007058635334759395,
+          "multiclass_ece": 0.013470116249859783,
+          "ece_bins": 15,
+          "coverage": [
+            {
+              "threshold": 0.5,
+              "selected": 2160,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.7,
+              "selected": 2160,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.8,
+              "selected": 2160,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.9,
+              "selected": 2160,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.95,
+              "selected": 2096,
+              "coverage": 0.9703703703703703,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.99,
+              "selected": 1237,
+              "coverage": 0.5726851851851852,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            }
+          ]
+        }
+      }
+    },
+    "about_electricity": {
+      "kind": "noul",
+      "options": [
+        "no",
+        "yes"
+      ],
+      "train_rows": 6912,
+      "splits": {
+        "train": {
+          "count": 6912,
+          "hard_count": 6912,
+          "accuracy": 1.0,
+          "expected_accuracy": 1.0,
+          "nll": 0.016780009264665302,
+          "brier": 0.002022921138536327,
+          "expected_brier": 0.0020229211385363343,
+          "multiclass_ece": 0.016224105141904366,
+          "ece_bins": 15,
+          "coverage": [
+            {
+              "threshold": 0.5,
+              "selected": 6912,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.7,
+              "selected": 6912,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.8,
+              "selected": 6878,
+              "coverage": 0.9950810185185185,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.9,
+              "selected": 6714,
+              "coverage": 0.9713541666666666,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.95,
+              "selected": 6381,
+              "coverage": 0.9231770833333334,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.99,
+              "selected": 4065,
+              "coverage": 0.5881076388888888,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            }
+          ],
+          "auroc": 1.0
+        },
+        "calibration": {
+          "count": 378,
+          "hard_count": 378,
+          "accuracy": 1.0,
+          "expected_accuracy": 1.0,
+          "nll": 0.013335375675506547,
+          "brier": 0.0006840389055707851,
+          "expected_brier": 0.0006840389055707924,
+          "multiclass_ece": 0.013159225572790515,
+          "ece_bins": 15,
+          "coverage": [
+            {
+              "threshold": 0.5,
+              "selected": 378,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.7,
+              "selected": 378,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.8,
+              "selected": 378,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.9,
+              "selected": 376,
+              "coverage": 0.9947089947089947,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.95,
+              "selected": 371,
+              "coverage": 0.9814814814814815,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.99,
+              "selected": 192,
+              "coverage": 0.5079365079365079,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            }
+          ],
+          "auroc": 1.0
+        },
+        "validation": {
+          "count": 567,
+          "hard_count": 567,
+          "accuracy": 1.0,
+          "expected_accuracy": 1.0,
+          "nll": 0.011360825777690837,
+          "brier": 0.0005921129001701317,
+          "expected_brier": 0.0005921129001701384,
+          "multiclass_ece": 0.011207283131238241,
+          "ece_bins": 15,
+          "coverage": [
+            {
+              "threshold": 0.5,
+              "selected": 567,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.7,
+              "selected": 567,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.8,
+              "selected": 567,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.9,
+              "selected": 565,
+              "coverage": 0.9964726631393298,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.95,
+              "selected": 559,
+              "coverage": 0.9858906525573192,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.99,
+              "selected": 350,
+              "coverage": 0.6172839506172839,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            }
+          ],
+          "auroc": 1.0
+        },
+        "test": {
+          "count": 783,
+          "hard_count": 783,
+          "accuracy": 1.0,
+          "expected_accuracy": 1.0,
+          "nll": 0.013172630962694505,
+          "brier": 0.0007478768853974568,
+          "expected_brier": 0.0007478768853974673,
+          "multiclass_ece": 0.012979017903351512,
+          "ece_bins": 15,
+          "coverage": [
+            {
+              "threshold": 0.5,
+              "selected": 783,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.7,
+              "selected": 783,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.8,
+              "selected": 783,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.9,
+              "selected": 781,
+              "coverage": 0.9974457215836526,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.95,
+              "selected": 763,
+              "coverage": 0.9744572158365262,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.99,
+              "selected": 442,
+              "coverage": 0.5644955300127714,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            }
+          ],
+          "auroc": 1.0
+        },
+        "ood": {
+          "count": 2160,
+          "hard_count": 2160,
+          "accuracy": 1.0,
+          "expected_accuracy": 1.0,
+          "nll": 0.016959701274387555,
+          "brier": 0.0009391406069379406,
+          "expected_brier": 0.0009391406069379419,
+          "multiclass_ece": 0.016719411656364654,
+          "ece_bins": 15,
+          "coverage": [
+            {
+              "threshold": 0.5,
+              "selected": 2160,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.7,
+              "selected": 2160,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.8,
+              "selected": 2160,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.9,
+              "selected": 2160,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.95,
+              "selected": 2127,
+              "coverage": 0.9847222222222223,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.99,
+              "selected": 919,
+              "coverage": 0.425462962962963,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            }
+          ]
+        }
+      }
+    },
+    "about_telecom": {
+      "kind": "noul",
+      "options": [
+        "no",
+        "yes"
+      ],
+      "train_rows": 6912,
+      "splits": {
+        "train": {
+          "count": 6912,
+          "hard_count": 6912,
+          "accuracy": 1.0,
+          "expected_accuracy": 1.0,
+          "nll": 0.012132090935366635,
+          "brier": 0.0013934770508710911,
+          "expected_brier": 0.001393477050871102,
+          "multiclass_ece": 0.011755301300682374,
+          "ece_bins": 15,
+          "coverage": [
+            {
+              "threshold": 0.5,
+              "selected": 6912,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.7,
+              "selected": 6912,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.8,
+              "selected": 6912,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.9,
+              "selected": 6758,
+              "coverage": 0.9777199074074074,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.95,
+              "selected": 6480,
+              "coverage": 0.9375,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.99,
+              "selected": 5516,
+              "coverage": 0.7980324074074074,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            }
+          ],
+          "auroc": 1.0
+        },
+        "calibration": {
+          "count": 378,
+          "hard_count": 378,
+          "accuracy": 1.0,
+          "expected_accuracy": 1.0,
+          "nll": 0.015935753465192406,
+          "brier": 0.0019010059369143912,
+          "expected_brier": 0.0019010059369143897,
+          "multiclass_ece": 0.015428695876376793,
+          "ece_bins": 15,
+          "coverage": [
+            {
+              "threshold": 0.5,
+              "selected": 378,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.7,
+              "selected": 378,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.8,
+              "selected": 378,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.9,
+              "selected": 369,
+              "coverage": 0.9761904761904762,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.95,
+              "selected": 339,
+              "coverage": 0.8968253968253969,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.99,
+              "selected": 258,
+              "coverage": 0.6825396825396826,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            }
+          ],
+          "auroc": 1.0
+        },
+        "validation": {
+          "count": 567,
+          "hard_count": 567,
+          "accuracy": 1.0,
+          "expected_accuracy": 1.0,
+          "nll": 0.02143501269505088,
+          "brier": 0.003481997180013789,
+          "expected_brier": 0.003481997180013788,
+          "multiclass_ece": 0.02047591267003332,
+          "ece_bins": 15,
+          "coverage": [
+            {
+              "threshold": 0.5,
+              "selected": 567,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.7,
+              "selected": 567,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.8,
+              "selected": 564,
+              "coverage": 0.9947089947089947,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.9,
+              "selected": 541,
+              "coverage": 0.9541446208112875,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.95,
+              "selected": 483,
+              "coverage": 0.8518518518518519,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.99,
+              "selected": 373,
+              "coverage": 0.6578483245149912,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            }
+          ],
+          "auroc": 1.0
+        },
+        "test": {
+          "count": 783,
+          "hard_count": 783,
+          "accuracy": 1.0,
+          "expected_accuracy": 1.0,
+          "nll": 0.012855185688125537,
+          "brier": 0.0012918161100361856,
+          "expected_brier": 0.0012918161100361897,
+          "multiclass_ece": 0.012511565648417097,
+          "ece_bins": 15,
+          "coverage": [
+            {
+              "threshold": 0.5,
+              "selected": 783,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.7,
+              "selected": 783,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.8,
+              "selected": 783,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.9,
+              "selected": 771,
+              "coverage": 0.9846743295019157,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.95,
+              "selected": 731,
+              "coverage": 0.933588761174968,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.99,
+              "selected": 549,
+              "coverage": 0.7011494252873564,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            }
+          ],
+          "auroc": 1.0
+        },
+        "ood": {
+          "count": 2160,
+          "hard_count": 2160,
+          "accuracy": 0.99537,
+          "expected_accuracy": 0.9953703703703703,
+          "nll": 0.024576218943084264,
+          "brier": 0.011630980186127283,
+          "expected_brier": 0.011630980186127262,
+          "multiclass_ece": 0.019633143928976433,
+          "ece_bins": 15,
+          "coverage": [
+            {
+              "threshold": 0.5,
+              "selected": 2160,
+              "coverage": 1.0,
+              "accuracy": 0.9953703703703703,
+              "expected_accuracy": 0.9953703703703703,
+              "expected_risk": 0.00462962962962965
+            },
+            {
+              "threshold": 0.7,
+              "selected": 2127,
+              "coverage": 0.9847222222222223,
+              "accuracy": 0.996708979783733,
+              "expected_accuracy": 0.996708979783733,
+              "expected_risk": 0.0032910202162670377
+            },
+            {
+              "threshold": 0.8,
+              "selected": 2120,
+              "coverage": 0.9814814814814815,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.9,
+              "selected": 2120,
+              "coverage": 0.9814814814814815,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.95,
+              "selected": 2072,
+              "coverage": 0.9592592592592593,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.99,
+              "selected": 1516,
+              "coverage": 0.7018518518518518,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            }
+          ],
+          "auroc": 1.0
+        }
+      }
+    },
+    "category#6": {
+      "kind": "choice",
+      "options": [
+        "airline: An air carrier's own ticket, baggage, seat or flight service; not an agency or hotel.",
+        "banking: A financial institution's own account/card fees, interest or commissions; not a utility merely paid through a bank.",
+        "education: Education services billed by the educational institution; a student's telephone bill is not education.",
+        "electricity: Electrical power billed by its supplier; not water or electrical equipment sold by a shop.",
+        "other: A provider's bill for a service outside the named categories.",
+        "telecom: Mobile or fixed telephone service billed by its operator; not a handset sold by a retailer."
+      ],
+      "train_rows": 4096,
+      "splits": {
+        "train": {
+          "count": 4096,
+          "hard_count": 4096,
+          "accuracy": 1.0,
+          "expected_accuracy": 1.0,
+          "nll": 0.06470359396693205,
+          "brier": 0.00692476082418521,
+          "expected_brier": 0.0069247608241852,
+          "multiclass_ece": 0.06185851355200566,
+          "ece_bins": 15,
+          "coverage": [
+            {
+              "threshold": 0.5,
+              "selected": 4096,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.7,
+              "selected": 4096,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.8,
+              "selected": 4067,
+              "coverage": 0.992919921875,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.9,
+              "selected": 3510,
+              "coverage": 0.85693359375,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.95,
+              "selected": 1924,
+              "coverage": 0.4697265625,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.99,
+              "selected": 0,
+              "coverage": 0.0,
+              "accuracy": null,
+              "expected_accuracy": null,
+              "expected_risk": null
+            }
+          ],
+          "macro_f1": 1.0
+        },
+        "calibration": {
+          "count": 224,
+          "hard_count": 224,
+          "accuracy": 1.0,
+          "expected_accuracy": 1.0,
+          "nll": 0.05709254937121759,
+          "brier": 0.005780034751502308,
+          "expected_brier": 0.00578003475150231,
+          "multiclass_ece": 0.05451191706187592,
+          "ece_bins": 15,
+          "coverage": [
+            {
+              "threshold": 0.5,
+              "selected": 224,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.7,
+              "selected": 224,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.8,
+              "selected": 224,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.9,
+              "selected": 190,
+              "coverage": 0.8482142857142857,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.95,
+              "selected": 130,
+              "coverage": 0.5803571428571429,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.99,
+              "selected": 8,
+              "coverage": 0.03571428571428571,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            }
+          ],
+          "macro_f1": 1.0
+        },
+        "validation": {
+          "count": 336,
+          "hard_count": 336,
+          "accuracy": 1.0,
+          "expected_accuracy": 1.0,
+          "nll": 0.057204064430083156,
+          "brier": 0.0063858767041866885,
+          "expected_brier": 0.006385876704186691,
+          "multiclass_ece": 0.05430888202339001,
+          "ece_bins": 15,
+          "coverage": [
+            {
+              "threshold": 0.5,
+              "selected": 336,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.7,
+              "selected": 336,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.8,
+              "selected": 332,
+              "coverage": 0.9880952380952381,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.9,
+              "selected": 284,
+              "coverage": 0.8452380952380952,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.95,
+              "selected": 198,
+              "coverage": 0.5892857142857143,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.99,
+              "selected": 27,
+              "coverage": 0.08035714285714286,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            }
+          ],
+          "macro_f1": 1.0
+        },
+        "test": {
+          "count": 464,
+          "hard_count": 464,
+          "accuracy": 1.0,
+          "expected_accuracy": 1.0,
+          "nll": 0.0545786855634,
+          "brier": 0.005554049359139884,
+          "expected_brier": 0.00555404935913989,
+          "multiclass_ece": 0.052098112228633274,
+          "ece_bins": 15,
+          "coverage": [
+            {
+              "threshold": 0.5,
+              "selected": 464,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.7,
+              "selected": 464,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.8,
+              "selected": 460,
+              "coverage": 0.9913793103448276,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.9,
+              "selected": 405,
+              "coverage": 0.8728448275862069,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.95,
+              "selected": 280,
+              "coverage": 0.603448275862069,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.99,
+              "selected": 22,
+              "coverage": 0.04741379310344827,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            }
+          ],
+          "macro_f1": 1.0
+        },
+        "ood": {
+          "count": 1280,
+          "hard_count": 1280,
+          "accuracy": 1.0,
+          "expected_accuracy": 1.0,
+          "nll": 0.18151829221693921,
+          "brier": 0.05512532497781777,
+          "expected_brier": 0.05512532497781773,
+          "multiclass_ece": 0.14986103865750425,
+          "ece_bins": 15,
+          "coverage": [
+            {
+              "threshold": 0.5,
+              "selected": 1234,
+              "coverage": 0.9640625,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.7,
+              "selected": 1040,
+              "coverage": 0.8125,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.8,
+              "selected": 1000,
+              "coverage": 0.78125,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.9,
+              "selected": 720,
+              "coverage": 0.5625,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.95,
+              "selected": 269,
+              "coverage": 0.21015625,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.99,
+              "selected": 0,
+              "coverage": 0.0,
+              "accuracy": null,
+              "expected_accuracy": null,
+              "expected_risk": null
+            }
+          ],
+          "macro_f1": 1.0
+        }
+      }
+    },
+    "category#7": {
+      "kind": "choice",
+      "options": [
+        "airline: An air carrier's own ticket, baggage, seat or flight service; not an agency or hotel.",
+        "banking: A financial institution's own account/card fees, interest or commissions; not a utility merely paid through a bank.",
+        "education: Education services billed by the educational institution; a student's telephone bill is not education.",
+        "electricity: Electrical power billed by its supplier; not water or electrical equipment sold by a shop.",
+        "insurance: An insurer's own insurance policy or premium.",
+        "other: A provider's bill for a service outside the named categories.",
+        "telecom: Mobile or fixed telephone service billed by its operator; not a handset sold by a retailer."
+      ],
+      "train_rows": 256,
+      "splits": {
+        "train": {
+          "count": 256,
+          "hard_count": 256,
+          "accuracy": 1.0,
+          "expected_accuracy": 1.0,
+          "nll": 0.1488162975149128,
+          "brier": 0.02373462198190672,
+          "expected_brier": 0.02373462198190665,
+          "multiclass_ece": 0.137618346818565,
+          "ece_bins": 15,
+          "coverage": [
+            {
+              "threshold": 0.5,
+              "selected": 256,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.7,
+              "selected": 256,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.8,
+              "selected": 250,
+              "coverage": 0.9765625,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.9,
+              "selected": 66,
+              "coverage": 0.2578125,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.95,
+              "selected": 0,
+              "coverage": 0.0,
+              "accuracy": null,
+              "expected_accuracy": null,
+              "expected_risk": null
+            },
+            {
+              "threshold": 0.99,
+              "selected": 0,
+              "coverage": 0.0,
+              "accuracy": null,
+              "expected_accuracy": null,
+              "expected_risk": null
+            }
+          ],
+          "macro_f1": 1.0
+        },
+        "calibration": {
+          "count": 14,
+          "hard_count": 14,
+          "accuracy": 1.0,
+          "expected_accuracy": 1.0,
+          "nll": 0.1684457678891054,
+          "brier": 0.02942385444716501,
+          "expected_brier": 0.029423854447165016,
+          "multiclass_ece": 0.15442965560421837,
+          "ece_bins": 15,
+          "coverage": [
+            {
+              "threshold": 0.5,
+              "selected": 14,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.7,
+              "selected": 14,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.8,
+              "selected": 14,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.9,
+              "selected": 1,
+              "coverage": 0.07142857142857142,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.95,
+              "selected": 0,
+              "coverage": 0.0,
+              "accuracy": null,
+              "expected_accuracy": null,
+              "expected_risk": null
+            },
+            {
+              "threshold": 0.99,
+              "selected": 0,
+              "coverage": 0.0,
+              "accuracy": null,
+              "expected_accuracy": null,
+              "expected_risk": null
+            }
+          ],
+          "macro_f1": 1.0
+        },
+        "validation": {
+          "count": 21,
+          "hard_count": 21,
+          "accuracy": 1.0,
+          "expected_accuracy": 1.0,
+          "nll": 0.14673897465050278,
+          "brier": 0.0229367412067138,
+          "expected_brier": 0.022936741206713778,
+          "multiclass_ece": 0.13594715699618629,
+          "ece_bins": 15,
+          "coverage": [
+            {
+              "threshold": 0.5,
+              "selected": 21,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.7,
+              "selected": 21,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.8,
+              "selected": 21,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.9,
+              "selected": 5,
+              "coverage": 0.23809523809523808,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.95,
+              "selected": 0,
+              "coverage": 0.0,
+              "accuracy": null,
+              "expected_accuracy": null,
+              "expected_risk": null
+            },
+            {
+              "threshold": 0.99,
+              "selected": 0,
+              "coverage": 0.0,
+              "accuracy": null,
+              "expected_accuracy": null,
+              "expected_risk": null
+            }
+          ],
+          "macro_f1": 1.0
+        },
+        "test": {
+          "count": 29,
+          "hard_count": 29,
+          "accuracy": 1.0,
+          "expected_accuracy": 1.0,
+          "nll": 0.1478204918586654,
+          "brier": 0.023339510023942765,
+          "expected_brier": 0.023339510023942734,
+          "multiclass_ece": 0.13683534711274647,
+          "ece_bins": 15,
+          "coverage": [
+            {
+              "threshold": 0.5,
+              "selected": 29,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.7,
+              "selected": 29,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.8,
+              "selected": 29,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.9,
+              "selected": 7,
+              "coverage": 0.2413793103448276,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.95,
+              "selected": 0,
+              "coverage": 0.0,
+              "accuracy": null,
+              "expected_accuracy": null,
+              "expected_risk": null
+            },
+            {
+              "threshold": 0.99,
+              "selected": 0,
+              "coverage": 0.0,
+              "accuracy": null,
+              "expected_accuracy": null,
+              "expected_risk": null
+            }
+          ],
+          "macro_f1": 1.0
+        },
+        "ood": {
+          "count": 80,
+          "hard_count": 80,
+          "accuracy": 1.0,
+          "expected_accuracy": 1.0,
+          "nll": 0.8555042885527986,
+          "brier": 0.3851290949791807,
+          "expected_brier": 0.3851290949791809,
+          "multiclass_ece": 0.5476223063663612,
+          "ece_bins": 15,
+          "coverage": [
+            {
+              "threshold": 0.5,
+              "selected": 40,
+              "coverage": 0.5,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.7,
+              "selected": 0,
+              "coverage": 0.0,
+              "accuracy": null,
+              "expected_accuracy": null,
+              "expected_risk": null
+            },
+            {
+              "threshold": 0.8,
+              "selected": 0,
+              "coverage": 0.0,
+              "accuracy": null,
+              "expected_accuracy": null,
+              "expected_risk": null
+            },
+            {
+              "threshold": 0.9,
+              "selected": 0,
+              "coverage": 0.0,
+              "accuracy": null,
+              "expected_accuracy": null,
+              "expected_risk": null
+            },
+            {
+              "threshold": 0.95,
+              "selected": 0,
+              "coverage": 0.0,
+              "accuracy": null,
+              "expected_accuracy": null,
+              "expected_risk": null
+            },
+            {
+              "threshold": 0.99,
+              "selected": 0,
+              "coverage": 0.0,
+              "accuracy": null,
+              "expected_accuracy": null,
+              "expected_risk": null
+            }
+          ]
+        }
+      }
+    },
+    "from_billing_entity": {
+      "kind": "noul",
+      "options": [
+        "no",
+        "yes"
+      ],
+      "train_rows": 6912,
+      "splits": {
+        "train": {
+          "count": 6912,
+          "hard_count": 6912,
+          "accuracy": 1.0,
+          "expected_accuracy": 1.0,
+          "nll": 0.014976122436587773,
+          "brier": 0.000617828292864904,
+          "expected_brier": 0.0006178282928649112,
+          "multiclass_ece": 0.014818930519069138,
+          "ece_bins": 15,
+          "coverage": [
+            {
+              "threshold": 0.5,
+              "selected": 6912,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.7,
+              "selected": 6912,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.8,
+              "selected": 6912,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.9,
+              "selected": 6912,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.95,
+              "selected": 6885,
+              "coverage": 0.99609375,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.99,
+              "selected": 2660,
+              "coverage": 0.38483796296296297,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            }
+          ],
+          "auroc": 1.0
+        },
+        "calibration": {
+          "count": 378,
+          "hard_count": 378,
+          "accuracy": 1.0,
+          "expected_accuracy": 1.0,
+          "nll": 0.0020155424538588814,
+          "brier": 1.546644190305969e-05,
+          "expected_brier": 1.5466441903061016e-05,
+          "multiclass_ece": 0.002011661345255067,
+          "ece_bins": 15,
+          "coverage": [
+            {
+              "threshold": 0.5,
+              "selected": 378,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.7,
+              "selected": 378,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.8,
+              "selected": 378,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.9,
+              "selected": 378,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.95,
+              "selected": 378,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.99,
+              "selected": 377,
+              "coverage": 0.9973544973544973,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            }
+          ],
+          "auroc": 1.0
+        },
+        "validation": {
+          "count": 567,
+          "hard_count": 567,
+          "accuracy": 1.0,
+          "expected_accuracy": 1.0,
+          "nll": 0.0019892284004510404,
+          "brier": 1.508643775273377e-05,
+          "expected_brier": 1.5086437752734351e-05,
+          "multiclass_ece": 0.0019854427153060215,
+          "ece_bins": 15,
+          "coverage": [
+            {
+              "threshold": 0.5,
+              "selected": 567,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.7,
+              "selected": 567,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.8,
+              "selected": 567,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.9,
+              "selected": 567,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.95,
+              "selected": 567,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.99,
+              "selected": 565,
+              "coverage": 0.9964726631393298,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            }
+          ],
+          "auroc": 1.0
+        },
+        "test": {
+          "count": 783,
+          "hard_count": 783,
+          "accuracy": 1.0,
+          "expected_accuracy": 1.0,
+          "nll": 0.001953794528858541,
+          "brier": 1.4501042716651995e-05,
+          "expected_brier": 1.4501042716648678e-05,
+          "multiclass_ece": 0.0019501559975464025,
+          "ece_bins": 15,
+          "coverage": [
+            {
+              "threshold": 0.5,
+              "selected": 783,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.7,
+              "selected": 783,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.8,
+              "selected": 783,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.9,
+              "selected": 783,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.95,
+              "selected": 783,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.99,
+              "selected": 781,
+              "coverage": 0.9974457215836526,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            }
+          ],
+          "auroc": 1.0
+        },
+        "ood": {
+          "count": 2160,
+          "hard_count": 2160,
+          "accuracy": 1.0,
+          "expected_accuracy": 1.0,
+          "nll": 0.003806376665511624,
+          "brier": 8.579805603857048e-05,
+          "expected_brier": 8.579805603856514e-05,
+          "multiclass_ece": 0.0037846783417213223,
+          "ece_bins": 15,
+          "coverage": [
+            {
+              "threshold": 0.5,
+              "selected": 2160,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.7,
+              "selected": 2160,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.8,
+              "selected": 2160,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.9,
+              "selected": 2160,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.95,
+              "selected": 2160,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.99,
+              "selected": 1880,
+              "coverage": 0.8703703703703703,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            }
+          ],
+          "auroc": 1.0
+        }
+      }
+    },
+    "has_billing_identifiers": {
+      "kind": "noul",
+      "options": [
+        "no",
+        "yes"
+      ],
+      "train_rows": 6912,
+      "splits": {
+        "train": {
+          "count": 6912,
+          "hard_count": 6912,
+          "accuracy": 1.0,
+          "expected_accuracy": 1.0,
+          "nll": 0.015113861464413831,
+          "brier": 0.0005372178966667597,
+          "expected_brier": 0.0005372178966667608,
+          "multiclass_ece": 0.014977735302257487,
+          "ece_bins": 15,
+          "coverage": [
+            {
+              "threshold": 0.5,
+              "selected": 6912,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.7,
+              "selected": 6912,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.8,
+              "selected": 6912,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.9,
+              "selected": 6912,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.95,
+              "selected": 6912,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.99,
+              "selected": 1300,
+              "coverage": 0.1880787037037037,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            }
+          ],
+          "auroc": 1.0
+        },
+        "calibration": {
+          "count": 378,
+          "hard_count": 378,
+          "accuracy": 1.0,
+          "expected_accuracy": 1.0,
+          "nll": 0.0018781553214557401,
+          "brier": 1.007807030744205e-05,
+          "expected_brier": 1.0078070307437199e-05,
+          "multiclass_ece": 0.0018756303670584887,
+          "ece_bins": 15,
+          "coverage": [
+            {
+              "threshold": 0.5,
+              "selected": 378,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.7,
+              "selected": 378,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.8,
+              "selected": 378,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.9,
+              "selected": 378,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.95,
+              "selected": 378,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.99,
+              "selected": 378,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            }
+          ],
+          "auroc": 1.0
+        },
+        "validation": {
+          "count": 567,
+          "hard_count": 567,
+          "accuracy": 1.0,
+          "expected_accuracy": 1.0,
+          "nll": 0.0019411214898997738,
+          "brier": 1.1358584416594515e-05,
+          "expected_brier": 1.1358584416585197e-05,
+          "multiclass_ece": 0.0019382748591739566,
+          "ece_bins": 15,
+          "coverage": [
+            {
+              "threshold": 0.5,
+              "selected": 567,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.7,
+              "selected": 567,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.8,
+              "selected": 567,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.9,
+              "selected": 567,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.95,
+              "selected": 567,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.99,
+              "selected": 567,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            }
+          ],
+          "auroc": 1.0
+        },
+        "test": {
+          "count": 783,
+          "hard_count": 783,
+          "accuracy": 1.0,
+          "expected_accuracy": 1.0,
+          "nll": 0.0019477029109001894,
+          "brier": 1.2270637379199122e-05,
+          "expected_brier": 1.227063737918999e-05,
+          "multiclass_ece": 0.0019446262348788172,
+          "ece_bins": 15,
+          "coverage": [
+            {
+              "threshold": 0.5,
+              "selected": 783,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.7,
+              "selected": 783,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.8,
+              "selected": 783,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.9,
+              "selected": 783,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.95,
+              "selected": 783,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.99,
+              "selected": 782,
+              "coverage": 0.9987228607918263,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            }
+          ],
+          "auroc": 1.0
+        },
+        "ood": {
+          "count": 2160,
+          "hard_count": 2160,
+          "accuracy": 1.0,
+          "expected_accuracy": 1.0,
+          "nll": 0.0036925420562325165,
+          "brier": 6.188019968980387e-05,
+          "expected_brier": 6.188019968980755e-05,
+          "multiclass_ece": 0.003676952025632882,
+          "ece_bins": 15,
+          "coverage": [
+            {
+              "threshold": 0.5,
+              "selected": 2160,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.7,
+              "selected": 2160,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.8,
+              "selected": 2160,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.9,
+              "selected": 2160,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.95,
+              "selected": 2160,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.99,
+              "selected": 1903,
+              "coverage": 0.8810185185185185,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            }
+          ],
+          "auroc": 1.0
+        }
+      }
+    },
+    "is_promotional": {
+      "kind": "noul",
+      "options": [
+        "no",
+        "yes"
+      ],
+      "train_rows": 6912,
+      "splits": {
+        "train": {
+          "count": 6912,
+          "hard_count": 6912,
+          "accuracy": 1.0,
+          "expected_accuracy": 1.0,
+          "nll": 0.007111376823801264,
+          "brier": 0.00026857395230668824,
+          "expected_brier": 0.00026857395230668943,
+          "multiclass_ece": 0.007042791388631155,
+          "ece_bins": 15,
+          "coverage": [
+            {
+              "threshold": 0.5,
+              "selected": 6912,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.7,
+              "selected": 6912,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.8,
+              "selected": 6912,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.9,
+              "selected": 6912,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.95,
+              "selected": 6912,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.99,
+              "selected": 6144,
+              "coverage": 0.8888888888888888,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            }
+          ],
+          "auroc": 1.0
+        },
+        "calibration": {
+          "count": 378,
+          "hard_count": 378,
+          "accuracy": 1.0,
+          "expected_accuracy": 1.0,
+          "nll": 0.0020389400233922056,
+          "brier": 1.1312504451624694e-05,
+          "expected_brier": 1.1312504451627977e-05,
+          "multiclass_ece": 0.0020361052558236542,
+          "ece_bins": 15,
+          "coverage": [
+            {
+              "threshold": 0.5,
+              "selected": 378,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.7,
+              "selected": 378,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.8,
+              "selected": 378,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.9,
+              "selected": 378,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.95,
+              "selected": 378,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.99,
+              "selected": 378,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            }
+          ],
+          "auroc": 1.0
+        },
+        "validation": {
+          "count": 567,
+          "hard_count": 567,
+          "accuracy": 1.0,
+          "expected_accuracy": 1.0,
+          "nll": 0.00204656723536169,
+          "brier": 1.1676531295616691e-05,
+          "expected_brier": 1.1676531295619344e-05,
+          "multiclass_ece": 0.0020436409645559796,
+          "ece_bins": 15,
+          "coverage": [
+            {
+              "threshold": 0.5,
+              "selected": 567,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.7,
+              "selected": 567,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.8,
+              "selected": 567,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.9,
+              "selected": 567,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.95,
+              "selected": 567,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.99,
+              "selected": 567,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            }
+          ],
+          "auroc": 1.0
+        },
+        "test": {
+          "count": 783,
+          "hard_count": 783,
+          "accuracy": 1.0,
+          "expected_accuracy": 1.0,
+          "nll": 0.001955779320652219,
+          "brier": 1.0608524477926549e-05,
+          "expected_brier": 1.0608524477929373e-05,
+          "multiclass_ece": 0.001953121065549732,
+          "ece_bins": 15,
+          "coverage": [
+            {
+              "threshold": 0.5,
+              "selected": 783,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.7,
+              "selected": 783,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.8,
+              "selected": 783,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.9,
+              "selected": 783,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.95,
+              "selected": 783,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.99,
+              "selected": 783,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            }
+          ],
+          "auroc": 1.0
+        },
+        "ood": {
+          "count": 2160,
+          "hard_count": 2160,
+          "accuracy": 1.0,
+          "expected_accuracy": 1.0,
+          "nll": 0.0021798168146202578,
+          "brier": 1.8565951994845656e-05,
+          "expected_brier": 1.8565951994852306e-05,
+          "multiclass_ece": 0.002175150952894632,
+          "ece_bins": 15,
+          "coverage": [
+            {
+              "threshold": 0.5,
+              "selected": 2160,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.7,
+              "selected": 2160,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.8,
+              "selected": 2160,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.9,
+              "selected": 2160,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.95,
+              "selected": 2160,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.99,
+              "selected": 2113,
+              "coverage": 0.9782407407407407,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            }
+          ],
+          "auroc": 1.0
+        }
+      }
+    },
+    "kind": {
+      "kind": "choice",
+      "options": [
+        "account_statement: A periodic bank/card activity summary, rather than an issued bill or payment receipt.",
+        "invoice: An issued bill, invoice, or charges statement. An announcement linking to an invoice is enough even if the email omits its amount.",
+        "newsletter: A recurring informational bulletin with no offer or money owed.",
+        "other: Other mail, such as shipping, appointments, or account-access notifications.",
+        "payment_confirmation: Confirmation of money already paid or received, with no new demand for payment.",
+        "promotion: An offer, discount, or advertisement that sells something without asserting an existing debt."
+      ],
+      "train_rows": 6912,
+      "splits": {
+        "train": {
+          "count": 6912,
+          "hard_count": 6912,
+          "accuracy": 1.0,
+          "expected_accuracy": 1.0,
+          "nll": 0.01782289183844291,
+          "brier": 0.00048713354813993004,
+          "expected_brier": 0.0004871335481399327,
+          "multiclass_ece": 0.017634254183319844,
+          "ece_bins": 15,
+          "coverage": [
+            {
+              "threshold": 0.5,
+              "selected": 6912,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.7,
+              "selected": 6912,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.8,
+              "selected": 6912,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.9,
+              "selected": 6912,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.95,
+              "selected": 6912,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.99,
+              "selected": 1351,
+              "coverage": 0.19545717592592593,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            }
+          ],
+          "macro_f1": 1.0
+        },
+        "calibration": {
+          "count": 378,
+          "hard_count": 378,
+          "accuracy": 1.0,
+          "expected_accuracy": 1.0,
+          "nll": 0.0027559922679829037,
+          "brier": 1.850739993713391e-05,
+          "expected_brier": 1.8507399937136378e-05,
+          "multiclass_ece": 0.002749809540090316,
+          "ece_bins": 15,
+          "coverage": [
+            {
+              "threshold": 0.5,
+              "selected": 378,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.7,
+              "selected": 378,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.8,
+              "selected": 378,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.9,
+              "selected": 378,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.95,
+              "selected": 378,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.99,
+              "selected": 374,
+              "coverage": 0.9894179894179894,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            }
+          ],
+          "macro_f1": 1.0
+        },
+        "validation": {
+          "count": 567,
+          "hard_count": 567,
+          "accuracy": 1.0,
+          "expected_accuracy": 1.0,
+          "nll": 0.0028340692128163646,
+          "brier": 1.9879116477674586e-05,
+          "expected_brier": 1.987911647767586e-05,
+          "multiclass_ece": 0.002827435374722471,
+          "ece_bins": 15,
+          "coverage": [
+            {
+              "threshold": 0.5,
+              "selected": 567,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.7,
+              "selected": 567,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.8,
+              "selected": 567,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.9,
+              "selected": 567,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.95,
+              "selected": 567,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.99,
+              "selected": 557,
+              "coverage": 0.982363315696649,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            }
+          ],
+          "macro_f1": 1.0
+        },
+        "test": {
+          "count": 783,
+          "hard_count": 783,
+          "accuracy": 1.0,
+          "expected_accuracy": 1.0,
+          "nll": 0.0028241766800420807,
+          "brier": 1.9603638849676585e-05,
+          "expected_brier": 1.960363884967921e-05,
+          "multiclass_ece": 0.002817632689712922,
+          "ece_bins": 15,
+          "coverage": [
+            {
+              "threshold": 0.5,
+              "selected": 783,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.7,
+              "selected": 783,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.8,
+              "selected": 783,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.9,
+              "selected": 783,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.95,
+              "selected": 783,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.99,
+              "selected": 773,
+              "coverage": 0.9872286079182631,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            }
+          ],
+          "macro_f1": 1.0
+        },
+        "ood": {
+          "count": 2160,
+          "hard_count": 2160,
+          "accuracy": 1.0,
+          "expected_accuracy": 1.0,
+          "nll": 0.006582397382667216,
+          "brier": 0.00010517604466868752,
+          "expected_brier": 0.00010517604466870292,
+          "multiclass_ece": 0.006547003120229428,
+          "ece_bins": 15,
+          "coverage": [
+            {
+              "threshold": 0.5,
+              "selected": 2160,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.7,
+              "selected": 2160,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.8,
+              "selected": 2160,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.9,
+              "selected": 2160,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.95,
+              "selected": 2160,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.99,
+              "selected": 1529,
+              "coverage": 0.7078703703703704,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            }
+          ],
+          "macro_f1": 1.0
+        }
+      }
+    },
+    "states_amount_owed": {
+      "kind": "noul",
+      "options": [
+        "no",
+        "yes"
+      ],
+      "train_rows": 6912,
+      "splits": {
+        "train": {
+          "count": 6912,
+          "hard_count": 6912,
+          "accuracy": 1.0,
+          "expected_accuracy": 1.0,
+          "nll": 0.014745891897808379,
+          "brier": 0.000544931457578905,
+          "expected_brier": 0.0005449314575789072,
+          "multiclass_ece": 0.014607621107505851,
+          "ece_bins": 15,
+          "coverage": [
+            {
+              "threshold": 0.5,
+              "selected": 6912,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.7,
+              "selected": 6912,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.8,
+              "selected": 6912,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.9,
+              "selected": 6912,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.95,
+              "selected": 6912,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.99,
+              "selected": 2282,
+              "coverage": 0.33015046296296297,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            }
+          ],
+          "auroc": 1.0
+        },
+        "calibration": {
+          "count": 378,
+          "hard_count": 378,
+          "accuracy": 1.0,
+          "expected_accuracy": 1.0,
+          "nll": 0.0025113002121971285,
+          "brier": 2.6071472932762113e-05,
+          "expected_brier": 2.607147293277078e-05,
+          "multiclass_ece": 0.0025047487534348217,
+          "ece_bins": 15,
+          "coverage": [
+            {
+              "threshold": 0.5,
+              "selected": 378,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.7,
+              "selected": 378,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.8,
+              "selected": 378,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.9,
+              "selected": 378,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.95,
+              "selected": 378,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.99,
+              "selected": 366,
+              "coverage": 0.9682539682539683,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            }
+          ],
+          "auroc": 1.0
+        },
+        "validation": {
+          "count": 567,
+          "hard_count": 567,
+          "accuracy": 1.0,
+          "expected_accuracy": 1.0,
+          "nll": 0.002521043803114134,
+          "brier": 2.6256295538654693e-05,
+          "expected_brier": 2.6256295538661178e-05,
+          "multiclass_ece": 0.0025144459412438014,
+          "ece_bins": 15,
+          "coverage": [
+            {
+              "threshold": 0.5,
+              "selected": 567,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.7,
+              "selected": 567,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.8,
+              "selected": 567,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.9,
+              "selected": 567,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.95,
+              "selected": 567,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.99,
+              "selected": 551,
+              "coverage": 0.9717813051146384,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            }
+          ],
+          "auroc": 1.0
+        },
+        "test": {
+          "count": 783,
+          "hard_count": 783,
+          "accuracy": 1.0,
+          "expected_accuracy": 1.0,
+          "nll": 0.0024677688536454165,
+          "brier": 2.5130729706114277e-05,
+          "expected_brier": 2.5130729706116022e-05,
+          "multiclass_ece": 0.002461454293034327,
+          "ece_bins": 15,
+          "coverage": [
+            {
+              "threshold": 0.5,
+              "selected": 783,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.7,
+              "selected": 783,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.8,
+              "selected": 783,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.9,
+              "selected": 783,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.95,
+              "selected": 783,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.99,
+              "selected": 759,
+              "coverage": 0.9693486590038314,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            }
+          ],
+          "auroc": 1.0
+        },
+        "ood": {
+          "count": 2160,
+          "hard_count": 2160,
+          "accuracy": 1.0,
+          "expected_accuracy": 1.0,
+          "nll": 0.00453197549416968,
+          "brier": 0.00011544537908636935,
+          "expected_brier": 0.00011544537908638792,
+          "multiclass_ece": 0.004502731056337931,
+          "ece_bins": 15,
+          "coverage": [
+            {
+              "threshold": 0.5,
+              "selected": 2160,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.7,
+              "selected": 2160,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.8,
+              "selected": 2160,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.9,
+              "selected": 2160,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.95,
+              "selected": 2160,
+              "coverage": 1.0,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            },
+            {
+              "threshold": 0.99,
+              "selected": 1873,
+              "coverage": 0.8671296296296296,
+              "accuracy": 1.0,
+              "expected_accuracy": 1.0,
+              "expected_risk": 0.0
+            }
+          ],
+          "auroc": 1.0
+        }
+      }
+    }
+  }
+}

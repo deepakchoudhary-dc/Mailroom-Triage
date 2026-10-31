@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local environment
+.env
+.env.*
+!.env.example
+.tmp/
+.cache/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Data and datasets
+Open-Jev/
+data/
+datasets/
+*.jsonl
+*.jsonl.gz
+*.parquet
+*.arrow
+
+# Model artifacts, checkpoints and caches
+artifacts/
+*.safetensors
+*.pt
+*.pth
+*.bin
+*.onnx
+*.h5
+
+# Logs
+*.log

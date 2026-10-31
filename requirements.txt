@@ -1,0 +1,13 @@
+# Runtime
+torch>=2.2
+transformers>=5.0,<6
+numpy>=2.0
+fastapi>=0.115
+uvicorn[standard]>=0.30
+pydantic>=2.8
+
+# Training and evaluation
+scikit-learn>=1.5
+
+# Development
+pytest>=8.0

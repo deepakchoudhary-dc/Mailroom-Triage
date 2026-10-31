@@ -1,0 +1,484 @@
+{
+  "model_dir": "artifacts/model",
+  "split": "validation",
+  "rows": 3000,
+  "perturbations": {
+    "clean": {
+      "accuracy": 1.0,
+      "heads": {
+        "about_airline": {
+          "rows": 281,
+          "accuracy": 1.0
+        },
+        "about_banking": {
+          "rows": 283,
+          "accuracy": 1.0
+        },
+        "about_education": {
+          "rows": 281,
+          "accuracy": 1.0
+        },
+        "about_electricity": {
+          "rows": 283,
+          "accuracy": 1.0
+        },
+        "about_telecom": {
+          "rows": 281,
+          "accuracy": 1.0
+        },
+        "category#6": {
+          "rows": 167,
+          "accuracy": 1.0
+        },
+        "category#7": {
+          "rows": 11,
+          "accuracy": 1.0
+        },
+        "from_billing_entity": {
+          "rows": 284,
+          "accuracy": 1.0
+        },
+        "has_billing_identifiers": {
+          "rows": 281,
+          "accuracy": 1.0
+        },
+        "is_promotional": {
+          "rows": 283,
+          "accuracy": 1.0
+        },
+        "kind": {
+          "rows": 284,
+          "accuracy": 1.0
+        },
+        "states_amount_owed": {
+          "rows": 281,
+          "accuracy": 1.0
+        }
+      }
+    },
+    "html": {
+      "accuracy": 1.0,
+      "heads": {
+        "about_airline": {
+          "rows": 281,
+          "accuracy": 1.0
+        },
+        "about_banking": {
+          "rows": 283,
+          "accuracy": 1.0
+        },
+        "about_education": {
+          "rows": 281,
+          "accuracy": 1.0
+        },
+        "about_electricity": {
+          "rows": 283,
+          "accuracy": 1.0
+        },
+        "about_telecom": {
+          "rows": 281,
+          "accuracy": 1.0
+        },
+        "category#6": {
+          "rows": 167,
+          "accuracy": 1.0
+        },
+        "category#7": {
+          "rows": 11,
+          "accuracy": 1.0
+        },
+        "from_billing_entity": {
+          "rows": 284,
+          "accuracy": 1.0
+        },
+        "has_billing_identifiers": {
+          "rows": 281,
+          "accuracy": 1.0
+        },
+        "is_promotional": {
+          "rows": 283,
+          "accuracy": 1.0
+        },
+        "kind": {
+          "rows": 284,
+          "accuracy": 1.0
+        },
+        "states_amount_owed": {
+          "rows": 281,
+          "accuracy": 1.0
+        }
+      }
+    },
+    "quoted": {
+      "accuracy": 1.0,
+      "heads": {
+        "about_airline": {
+          "rows": 281,
+          "accuracy": 1.0
+        },
+        "about_banking": {
+          "rows": 283,
+          "accuracy": 1.0
+        },
+        "about_education": {
+          "rows": 281,
+          "accuracy": 1.0
+        },
+        "about_electricity": {
+          "rows": 283,
+          "accuracy": 1.0
+        },
+        "about_telecom": {
+          "rows": 281,
+          "accuracy": 1.0
+        },
+        "category#6": {
+          "rows": 167,
+          "accuracy": 1.0
+        },
+        "category#7": {
+          "rows": 11,
+          "accuracy": 1.0
+        },
+        "from_billing_entity": {
+          "rows": 284,
+          "accuracy": 1.0
+        },
+        "has_billing_identifiers": {
+          "rows": 281,
+          "accuracy": 1.0
+        },
+        "is_promotional": {
+          "rows": 283,
+          "accuracy": 1.0
+        },
+        "kind": {
+          "rows": 284,
+          "accuracy": 1.0
+        },
+        "states_amount_owed": {
+          "rows": 281,
+          "accuracy": 1.0
+        }
+      }
+    },
+    "signature": {
+      "accuracy": 1.0,
+      "heads": {
+        "about_airline": {
+          "rows": 281,
+          "accuracy": 1.0
+        },
+        "about_banking": {
+          "rows": 283,
+          "accuracy": 1.0
+        },
+        "about_education": {
+          "rows": 281,
+          "accuracy": 1.0
+        },
+        "about_electricity": {
+          "rows": 283,
+          "accuracy": 1.0
+        },
+        "about_telecom": {
+          "rows": 281,
+          "accuracy": 1.0
+        },
+        "category#6": {
+          "rows": 167,
+          "accuracy": 1.0
+        },
+        "category#7": {
+          "rows": 11,
+          "accuracy": 1.0
+        },
+        "from_billing_entity": {
+          "rows": 284,
+          "accuracy": 1.0
+        },
+        "has_billing_identifiers": {
+          "rows": 281,
+          "accuracy": 1.0
+        },
+        "is_promotional": {
+          "rows": 283,
+          "accuracy": 1.0
+        },
+        "kind": {
+          "rows": 284,
+          "accuracy": 1.0
+        },
+        "states_amount_owed": {
+          "rows": 281,
+          "accuracy": 1.0
+        }
+      }
+    },
+    "typos": {
+      "accuracy": 0.9997,
+      "heads": {
+        "about_airline": {
+          "rows": 281,
+          "accuracy": 1.0
+        },
+        "about_banking": {
+          "rows": 283,
+          "accuracy": 0.9965
+        },
+        "about_education": {
+          "rows": 281,
+          "accuracy": 1.0
+        },
+        "about_electricity": {
+          "rows": 283,
+          "accuracy": 1.0
+        },
+        "about_telecom": {
+          "rows": 281,
+          "accuracy": 1.0
+        },
+        "category#6": {
+          "rows": 167,
+          "accuracy": 1.0
+        },
+        "category#7": {
+          "rows": 11,
+          "accuracy": 1.0
+        },
+        "from_billing_entity": {
+          "rows": 284,
+          "accuracy": 1.0
+        },
+        "has_billing_identifiers": {
+          "rows": 281,
+          "accuracy": 1.0
+        },
+        "is_promotional": {
+          "rows": 283,
+          "accuracy": 1.0
+        },
+        "kind": {
+          "rows": 284,
+          "accuracy": 1.0
+        },
+        "states_amount_owed": {
+          "rows": 281,
+          "accuracy": 1.0
+        }
+      }
+    },
+    "case": {
+      "accuracy": 0.9983,
+      "heads": {
+        "about_airline": {
+          "rows": 281,
+          "accuracy": 1.0
+        },
+        "about_banking": {
+          "rows": 283,
+          "accuracy": 1.0
+        },
+        "about_education": {
+          "rows": 281,
+          "accuracy": 0.9858
+        },
+        "about_electricity": {
+          "rows": 283,
+          "accuracy": 1.0
+        },
+        "about_telecom": {
+          "rows": 281,
+          "accuracy": 1.0
+        },
+        "category#6": {
+          "rows": 167,
+          "accuracy": 0.994
+        },
+        "category#7": {
+          "rows": 11,
+          "accuracy": 1.0
+        },
+        "from_billing_entity": {
+          "rows": 284,
+          "accuracy": 1.0
+        },
+        "has_billing_identifiers": {
+          "rows": 281,
+          "accuracy": 1.0
+        },
+        "is_promotional": {
+          "rows": 283,
+          "accuracy": 1.0
+        },
+        "kind": {
+          "rows": 284,
+          "accuracy": 1.0
+        },
+        "states_amount_owed": {
+          "rows": 281,
+          "accuracy": 1.0
+        }
+      }
+    },
+    "reordered": {
+      "accuracy": 0.9997,
+      "heads": {
+        "about_airline": {
+          "rows": 281,
+          "accuracy": 1.0
+        },
+        "about_banking": {
+          "rows": 283,
+          "accuracy": 1.0
+        },
+        "about_education": {
+          "rows": 281,
+          "accuracy": 1.0
+        },
+        "about_electricity": {
+          "rows": 283,
+          "accuracy": 0.9965
+        },
+        "about_telecom": {
+          "rows": 281,
+          "accuracy": 1.0
+        },
+        "category#6": {
+          "rows": 167,
+          "accuracy": 1.0
+        },
+        "category#7": {
+          "rows": 11,
+          "accuracy": 1.0
+        },
+        "from_billing_entity": {
+          "rows": 284,
+          "accuracy": 1.0
+        },
+        "has_billing_identifiers": {
+          "rows": 281,
+          "accuracy": 1.0
+        },
+        "is_promotional": {
+          "rows": 283,
+          "accuracy": 1.0
+        },
+        "kind": {
+          "rows": 284,
+          "accuracy": 1.0
+        },
+        "states_amount_owed": {
+          "rows": 281,
+          "accuracy": 1.0
+        }
+      }
+    },
+    "forwarded": {
+      "accuracy": 1.0,
+      "heads": {
+        "about_airline": {
+          "rows": 281,
+          "accuracy": 1.0
+        },
+        "about_banking": {
+          "rows": 283,
+          "accuracy": 1.0
+        },
+        "about_education": {
+          "rows": 281,
+          "accuracy": 1.0
+        },
+        "about_electricity": {
+          "rows": 283,
+          "accuracy": 1.0
+        },
+        "about_telecom": {
+          "rows": 281,
+          "accuracy": 1.0
+        },
+        "category#6": {
+          "rows": 167,
+          "accuracy": 1.0
+        },
+        "category#7": {
+          "rows": 11,
+          "accuracy": 1.0
+        },
+        "from_billing_entity": {
+          "rows": 284,
+          "accuracy": 1.0
+        },
+        "has_billing_identifiers": {
+          "rows": 281,
+          "accuracy": 1.0
+        },
+        "is_promotional": {
+          "rows": 283,
+          "accuracy": 1.0
+        },
+        "kind": {
+          "rows": 284,
+          "accuracy": 1.0
+        },
+        "states_amount_owed": {
+          "rows": 281,
+          "accuracy": 1.0
+        }
+      }
+    },
+    "truncate": {
+      "accuracy": 0.812,
+      "heads": {
+        "about_airline": {
+          "rows": 281,
+          "accuracy": 1.0
+        },
+        "about_banking": {
+          "rows": 283,
+          "accuracy": 1.0
+        },
+        "about_education": {
+          "rows": 281,
+          "accuracy": 1.0
+        },
+        "about_electricity": {
+          "rows": 283,
+          "accuracy": 1.0
+        },
+        "about_telecom": {
+          "rows": 281,
+          "accuracy": 0.9786
+        },
+        "category#6": {
+          "rows": 167,
+          "accuracy": 1.0
+        },
+        "category#7": {
+          "rows": 11,
+          "accuracy": 1.0
+        },
+        "from_billing_entity": {
+          "rows": 284,
+          "accuracy": 0.669
+        },
+        "has_billing_identifiers": {
+          "rows": 281,
+          "accuracy": 0.5018
+        },
+        "is_promotional": {
+          "rows": 283,
+          "accuracy": 0.9081
+        },
+        "kind": {
+          "rows": 284,
+          "accuracy": 0.2782
+        },
+        "states_amount_owed": {
+          "rows": 281,
+          "accuracy": 0.669
+        }
+      }
+    }
+  }
+}

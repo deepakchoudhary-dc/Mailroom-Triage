@@ -1,0 +1,20 @@
+{
+  "data_root": "../Open-Jev/raw/mailroom-control-v1",
+  "artifacts_dir": "artifacts",
+  "reports_dir": "reports",
+  "model_name": "sentence-transformers/all-MiniLM-L6-v2",
+  "precision": "fp32",
+  "max_length": 320,
+  "batch_size": 32,
+  "eval_batch_size": 64,
+  "epochs": 4,
+  "encoder_lr": 0.00003,
+  "head_lr": 0.001,
+  "weight_decay": 0.01,
+  "warmup_ratio": 0.1,
+  "seed": 42,
+  "num_workers": 0,
+  "critical_heads": ["kind", "states_amount_owed", "from_billing_entity"],
+  "target_precision": 0.9,
+  "min_coverage": 0.2
+}

@@ -1,0 +1,13 @@
+.git/
+.github/
+.venv/
+artifacts/cache/
+artifacts/train/
+artifacts/model-*/
+artifacts/*.log
+reports/
+tests/
+__pycache__/
+*.pyc
+.pytest_cache/
+.env
