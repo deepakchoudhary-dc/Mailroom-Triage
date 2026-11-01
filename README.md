@@ -98,7 +98,9 @@ tables and limitations.
 ## Install
 
 The repository contains code, tests, configs and reports only. The 87 MB model
-artifact and the training corpus are distributed separately.
+artifact is available on
+[Hugging Face](https://huggingface.co/allen65/Mailroom-Triage); the training
+corpus is distributed separately.
 
 ```bash
 python -m venv .venv
@@ -218,7 +220,10 @@ Code is MIT-licensed. The dataset is CC0-1.0; the base encoder and vendored
 metrics keep their upstream licenses. See `LICENSE`,
 `THIRD_PARTY_NOTICES.md`, and `LICENSES/Open-Jev-MIT.txt`.
 
-## Hugging Face: https://huggingface.co/allen65/Mailroom-Triage
+## Model weights
+
+The released artifact is available at
+[allen65/Mailroom-Triage](https://huggingface.co/allen65/Mailroom-Triage).
 
 ## Layout
 
