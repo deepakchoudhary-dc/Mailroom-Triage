@@ -218,6 +218,8 @@ Code is MIT-licensed. The dataset is CC0-1.0; the base encoder and vendored
 metrics keep their upstream licenses. See `LICENSE`,
 `THIRD_PARTY_NOTICES.md`, and `LICENSES/Open-Jev-MIT.txt`.
 
+## Hugging Face: https://huggingface.co/allen65/Mailroom-Triage
+
 ## Layout
 
 ```
